@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const { RepertoireSchema } = require()
+// const { RepertoireSchema } = require()
 
 const CinemaSchema = new mongoose.Schema({
   name: { type: String, required: true},
@@ -7,7 +7,7 @@ const CinemaSchema = new mongoose.Schema({
   address: { type: String, required: true},
   email: { type: String, required: true},
   phone: { type: String, required: true},
-  repertoire: [RepertoireSchema],
+  // repertoire: [RepertoireSchema],
 });
 
 module.exports = mongoose.model('Cinema', CinemaSchema);
