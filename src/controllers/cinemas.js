@@ -13,4 +13,14 @@ router.get('/', async (req, res) => {
   }
 });
 
+//get single cinema by id
+router.get('/:cinemaId', async (req,res) => {
+  try {
+    const foundCinema = await Cinema.findById(req.params.cinemaId);
+    res.json(foundCinema);
+  } catch (error) {
+    res.json({ message: error});
+  }
+});
+
 module.exports = router;

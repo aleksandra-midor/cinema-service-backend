@@ -4,3 +4,7 @@ Content-Type: application/json
 ### get all cinemas
 GET http://localhost:5001/api/v1/cinemas
 Content-Type: application/json
+
+### get a cinema by id
+GET http://localhost:5001/api/v1/cinemas/5f9c6b14b0286024eceb5cd0
+Content-Type: application/json
