@@ -1,9 +1,11 @@
 const mongoose = require('mongoose');
 
 const RepertoireSchema = new mongoose.Schema([
-  { filmId: { type: String, required: false }, 
-  1: { type: String, required: false },
-  2: { type: String, required: false },
+  { 
+    movieId: { type: String, required: false }, 
+  movieTitle: { type: String, required: false }, 
+  monday: { type: String, required: false },
+  tuesday: { type: String, required: false },
   3: { type: String, required: false },
   4: { type: String, required: false },
   5: { type: String, required: false },
@@ -14,5 +16,5 @@ const RepertoireSchema = new mongoose.Schema([
 
 module.exports = {
   Product: mongoose.model('Repertoire', RepertoireSchema),
-  ProductSchema,
+  RepertoireSchema,
 };
