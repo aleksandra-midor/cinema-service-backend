@@ -1,12 +1,16 @@
 const express = require('express');
 const Cinema = require('../models/cinema');
+const repertoire = require('../models/repertoire');
+const dateChanger = require("../utilities/dateChanger");
 
 const router = express.Router();
 
 //get all cinemas
 router.get('/', async (req, res) => {
   try {
-    const allCinemas = await Cinema.find();
+    const allCinemas = await Cinema.find().lean() // DZIEKI TEMU DOSTAJĘ ZAMIAST OBIEKTU Z INFO Z DB CZYSTY OBIEKT DO EDYCJI W JS
+    dateRepertoire(allCinemas)
+
     return res.json(allCinemas)
   } catch (err) {
     return res.status(500).send();
@@ -16,11 +20,49 @@ router.get('/', async (req, res) => {
 //get single cinema by id
 router.get('/:cinemaId', async (req,res) => {
   try {
-    const foundCinema = await Cinema.findById(req.params.cinemaId);
-    res.json(foundCinema);
+    const foundCinema = await Cinema.findById(req.params.cinemaId).lean();
+    dateRepertoire([foundCinema])
+
+    return res.json(foundCinema);
   } catch (error) {
-    res.json({ message: error});
+    return res.json({ message: error});
   }
 });
+
+function dateRepertoire (cinemas) {
+
+  cinemas.forEach((cinema) => cinema.repertoire.forEach((movie) => {
+    movie.seance = movie.seance.map((el, i) => {
+      return {
+        hours: el,
+        date: dateChanger[i]
+      }
+    })
+  }) )
+
+  // console.log('====', cinemas[0].repertoire[0])
+  // return cinemas
+
+  // const newCinemas = cinemas.map(cinema => {
+  //   return {
+  //     ...cinema, 
+  //     repertoire: cinema.repertoire.map((movie) => {
+  //       return {
+  //         ...movie,
+  //         seance: movie.seance.map((el, i) => {
+  //           return {
+  //             hours: el,
+  //             date: dateChanger[i]
+  //           }
+  //         })
+  //       }
+  //     }) 
+  //   }
+  // })
+  // return newCinemas
+
+} 
+
+
 
 module.exports = router;
