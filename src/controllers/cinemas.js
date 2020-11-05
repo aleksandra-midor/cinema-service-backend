@@ -39,30 +39,6 @@ function dateRepertoire (cinemas) {
       }
     })
   }) )
-
-  // console.log('====', cinemas[0].repertoire[0])
-  // return cinemas
-
-  // const newCinemas = cinemas.map(cinema => {
-  //   return {
-  //     ...cinema, 
-  //     repertoire: cinema.repertoire.map((movie) => {
-  //       return {
-  //         ...movie,
-  //         seance: movie.seance.map((el, i) => {
-  //           return {
-  //             hours: el,
-  //             date: dateChanger[i]
-  //           }
-  //         })
-  //       }
-  //     }) 
-  //   }
-  // })
-  // return newCinemas
-
 } 
-
-
 
 module.exports = router;

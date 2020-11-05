@@ -8,3 +8,7 @@ Content-Type: application/json
 ### get a cinema by id
 GET http://localhost:5001/api/v1/cinemas/5f9ef6cfd392b966283408da
 Content-Type: application/json
+
+### get payment data INITIAL 
+GET http://localhost:5001/api/v1/stripe
+Content-Type: application/json
