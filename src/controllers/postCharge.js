@@ -3,6 +3,7 @@ const router = express.Router();
 require('dotenv/config');
 const sKey = process.env.STRIPE_SECRET_KEY
 const stripe = require('stripe')(sKey)
+const sendMail = require('./sendMail')
 
 
 router.post('/charge', postCharge)
@@ -12,14 +13,15 @@ router.all('*', (_, res) =>
 
 async function postCharge(req, res) {
   try {
-    const { amount, source, receipt_email } = req.body
-
+    const { ticket, source, receiptEmail } = req.body
+    console.log("333333333333333333333333333333333333333333", ticket);
     const charge = await stripe.charges.create({
-      amount,
+      amount: ticket.totalPrice + "00",
       currency: 'sek',
       source,
-      receipt_email
+      receipt_email: receiptEmail
     })
+    sendMail(receiptEmail)
 
     if (!charge) throw new Error('charge unsuccessful')
 
