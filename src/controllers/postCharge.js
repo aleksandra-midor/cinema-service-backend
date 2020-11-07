@@ -4,7 +4,7 @@ require('dotenv/config');
 const sKey = process.env.STRIPE_SECRET_KEY
 const stripe = require('stripe')(sKey)
 const sendMail = require('./sendMail')
-
+const Ticket = require('../models/ticket');
 
 router.post('/charge', postCharge)
 router.all('*', (_, res) =>
@@ -14,7 +14,6 @@ router.all('*', (_, res) =>
 async function postCharge(req, res) {
   try {
     const { ticket, source, receiptEmail } = req.body
-    console.log("333333333333333333333333333333333333333333", ticket);
     const charge = await stripe.charges.create({
       amount: ticket.totalPrice + "00",
       currency: 'sek',
@@ -22,6 +21,7 @@ async function postCharge(req, res) {
       receipt_email: receiptEmail
     })
     sendMail(receiptEmail)
+    ticketInfo(ticket)
 
     if (!charge) throw new Error('charge unsuccessful')
 
@@ -36,5 +36,13 @@ async function postCharge(req, res) {
   }
 }
 
+async function ticketInfo (ticket) {
+  try {
+    const newTicket = new Ticket (ticket);
+    await newTicket.save();  
+  } catch (error) {
+    console.log(error)
+  }
+};
 
 module.exports = router;
