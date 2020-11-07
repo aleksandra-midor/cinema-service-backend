@@ -6,6 +6,8 @@ const TicketSchema = new mongoose.Schema({
   movieId:{ type: String, required: true },
   movieTitle:{ type: String, required: true },
   seats:{type:[Number], required: true},
+  cinemaId:{ type: String, required: true },
+  cinemaName:{ type: String, required: true },
   totalPrice:{ type: Number, required: true },
   customerEmail:{ type: String, required: true },
 });
