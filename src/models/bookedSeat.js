@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const SeatsBookSchema = new mongoose.Schema ({
+const BookedSeatSchema = new mongoose.Schema ({
   date:{ type: String, required: true },
   hour:{ type: String, required: true },
   movieId:{ type: String, required: true },
@@ -8,4 +8,4 @@ const SeatsBookSchema = new mongoose.Schema ({
   cinemaId:{ type: String, required: true },
 })
 
-module.exports =  mongoose.model('SeatsBook', SeatsBookSchema);
+module.exports =  mongoose.model('BookedSeat', BookedSeatSchema);

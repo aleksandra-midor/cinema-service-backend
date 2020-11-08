@@ -12,3 +12,7 @@ Content-Type: application/json
 ### get payment data INITIAL 
 GET http://localhost:5001/api/v1/stripe
 Content-Type: application/json
+
+### get booked seats
+GET http://localhost:5001/api/v1/bookedSeats/12/1231/123/123
+Content-Type: application/json

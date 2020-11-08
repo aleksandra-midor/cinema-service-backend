@@ -5,7 +5,7 @@ const sKey = process.env.STRIPE_SECRET_KEY
 const stripe = require('stripe')(sKey)
 // const sendMail = require('./sendMail')
 const Ticket = require('../models/ticket');
-const SeatsBook = require('../models/seatsBook');
+const BookedSeat = require('../models/bookedSeat');
 
 router.post('/charge', postCharge)
 router.all('*', (_, res) =>
@@ -49,7 +49,7 @@ async function ticketSave (ticket) {
 
 async function seatsBook (ticket) {
   try {
-    let finalBooking = await SeatsBook.findOneAndUpdate(
+    let finalBooking = await BookedSeat.findOneAndUpdate(
       { date: ticket.date, 
         hour:ticket.hour,
         movieId:ticket.movieId,
@@ -60,7 +60,7 @@ async function seatsBook (ticket) {
     await finalBooking.save()
 
     if (!foundBooking) {
-      const newSeatsBook = new SeatsBook ({
+      const newSeatsBook = new BookedSeat ({
         date: ticket.date,
         hour:ticket.hour,
         movieId:ticket.movieId,
