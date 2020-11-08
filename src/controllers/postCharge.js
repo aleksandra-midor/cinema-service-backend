@@ -3,7 +3,7 @@ const router = express.Router();
 require('dotenv/config');
 const sKey = process.env.STRIPE_SECRET_KEY
 const stripe = require('stripe')(sKey)
-const sendMail = require('./sendMail')
+// const sendMail = require('./sendMail')
 const Ticket = require('../models/ticket');
 const SeatsBook = require('../models/seatsBook');
 
@@ -21,7 +21,7 @@ async function postCharge(req, res) {
       source,
       receipt_email: receiptEmail
     })
-    sendMail(receiptEmail);
+    // sendMail(receiptEmail);
     ticketSave(ticket);
     seatsBook(ticket);
 
@@ -49,13 +49,15 @@ async function ticketSave (ticket) {
 
 async function seatsBook (ticket) {
   try {
-    const foundBooking = await SeatsBook.findOne({ 
-      date: ticket.date, 
-      hour:ticket.hour,
-      movieId:ticket.movieId,
-      cinemaId:ticket.cinemaId,});
-      
-      console.log("qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", foundBooking);
+    let finalBooking = await SeatsBook.findOneAndUpdate(
+      { date: ticket.date, 
+        hour:ticket.hour,
+        movieId:ticket.movieId,
+        cinemaId:ticket.cinemaId } , {$push: {
+          bookedSeats: ticket.seats
+        }}, {new: true}  
+    )
+    await finalBooking.save()
 
     if (!foundBooking) {
       const newSeatsBook = new SeatsBook ({
@@ -66,13 +68,11 @@ async function seatsBook (ticket) {
         cinemaId:ticket.cinemaId,
       });
       await newSeatsBook.save()
-    } else {
-      console.log("haaaaaaaaaaaaaaaaaaa")
-      foundBooking.bookedSeats = [...bookedSeats, ticket.seats]
-      console.log("44444444444444444444444", foundBooking);
-      await foundBooking.save()
     }
-  } catch (error) {}
+
+  } catch (error) {
+    
+    }
 };
 
 module.exports = router;
