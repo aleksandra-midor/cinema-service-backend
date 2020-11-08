@@ -1,78 +1,88 @@
-const express = require('express');
+const express = require("express");
 const router = express.Router();
-require('dotenv/config');
-const sKey = process.env.STRIPE_SECRET_KEY
-const stripe = require('stripe')(sKey)
-// const sendMail = require('./sendMail')
-const Ticket = require('../models/ticket');
-const BookedSeat = require('../models/bookedSeat');
+require("dotenv/config");
+const sKey = process.env.STRIPE_SECRET_KEY;
+const stripe = require("stripe")(sKey);
+const sendMail = require('./sendMail')
+const Ticket = require("../models/ticket");
+const BookedSeat = require("../models/bookedSeat");
 
-router.post('/charge', postCharge)
-router.all('*', (_, res) =>
-  res.json({ message: 'please make a POST request to /stripe/charge' })
-)
+router.post("/charge", postCharge);
+router.all("*", (_, res) =>
+  res.json({ message: "please make a POST request to /stripe/charge" })
+);
 
 async function postCharge(req, res) {
+  console.log("---- post charge");
   try {
-    const { ticket, source, receiptEmail } = req.body
+    const { ticket, source, receiptEmail } = req.body;
     const charge = await stripe.charges.create({
       amount: ticket.totalPrice + "00",
-      currency: 'sek',
+      currency: "sek",
       source,
-      receipt_email: receiptEmail
-    })
-    // sendMail(receiptEmail);
-    ticketSave(ticket);
-    seatsBook(ticket);
+      receipt_email: receiptEmail,
+    });
+    if (!charge) throw new Error("charge unsuccessful");
+    console.log("payment successful");
 
-    if (!charge) throw new Error('charge unsuccessful')
+    seatsBook(ticket);
+    ticketSave(ticket);
+    sendMail(receiptEmail);
+
 
     res.status(200).json({
-      message: 'charge posted successfully',
-      charge
-    })
+      message: "charge posted successfully",
+      charge,
+    });
   } catch (error) {
     res.status(500).json({
-      message: error.message
-    })
+      message: error.message,
+    });
   }
 }
 
-async function ticketSave (ticket) {
+async function ticketSave(ticket) {
   try {
-    const newTicket = new Ticket (ticket);
-    await newTicket.save();  
+    const newTicket = new Ticket(ticket);
+    await newTicket.save();
   } catch (error) {
-    console.log(error)
+    console.log(error);
   }
-};
+}
 
-async function seatsBook (ticket) {
+async function seatsBook(ticket) {
+  console.log("function seatsBook");
+
   try {
-    let finalBooking = await BookedSeat.findOneAndUpdate(
-      { date: ticket.date, 
-        hour:ticket.hour,
-        movieId:ticket.movieId,
-        cinemaId:ticket.cinemaId } , {$push: {
-          bookedSeats: ticket.seats
-        }}, {new: true}  
-    )
-    await finalBooking.save()
-
-    if (!foundBooking) {
-      const newSeatsBook = new BookedSeat ({
+    const finalBooking = await BookedSeat.findOneAndUpdate(
+      {
         date: ticket.date,
-        hour:ticket.hour,
-        movieId:ticket.movieId,
-        bookedSeats:ticket.seats,
-        cinemaId:ticket.cinemaId,
-      });
-      await newSeatsBook.save()
-    }
+        hour: ticket.hour,
+        movieId: ticket.movieId,
+        cinemaId: ticket.cinemaId,
+      },
+      {
+        $push: {
+          bookedSeats: ticket.seats,
+        },
+      },
+      { new: true }
+    );
+    console.log("-------- finalBooking", finalBooking);
 
-  } catch (error) {
-    
+    if (finalBooking) {
+      await finalBooking.save();
+    } else {
+      const newSeatsBook = new BookedSeat({
+        date: ticket.date,
+        hour: ticket.hour,
+        movieId: ticket.movieId,
+        bookedSeats: ticket.seats,
+        cinemaId: ticket.cinemaId,
+      });
+      await newSeatsBook.save();
     }
-};
+  } catch (error) {}
+}
 
 module.exports = router;
