@@ -1,37 +1,39 @@
-const express = require("express");
-const router = express.Router();
-require("dotenv/config");
-const sKey = process.env.STRIPE_SECRET_KEY;
-const stripe = require("stripe")(sKey);
-const sendMail = require('./sendMail')
-const Ticket = require("../models/ticket");
-const BookedSeat = require("../models/bookedSeat");
+/* eslint-disable no-empty */
+/* eslint-disable no-use-before-define */
+/* eslint-disable prettier/prettier */
+const express = require('express');
 
-router.post("/charge", postCharge);
-router.all("*", (_, res) =>
-  res.json({ message: "please make a POST request to /stripe/charge" })
-);
+const router = express.Router();
+require('dotenv/config');
+
+const sKey = process.env.STRIPE_SECRET_KEY;
+const stripe = require('stripe')(sKey);
+const sendMail = require('./sendMail');
+const Ticket = require('../models/ticket');
+const BookedSeat = require('../models/bookedSeat');
+
+router.post('/charge', postCharge);
+router.all('*', (_, res) => res.json({ message: 'please make a POST request to /stripe/charge' }));
 
 async function postCharge(req, res) {
-  console.log("---- post charge");
+  console.log('---- post charge');
   try {
     const { ticket, source, receiptEmail } = req.body;
     const charge = await stripe.charges.create({
-      amount: ticket.totalPrice + "00",
-      currency: "sek",
+      amount: `${ticket.totalPrice}00`,
+      currency: 'sek',
       source,
       receipt_email: receiptEmail,
     });
-    if (!charge) throw new Error("charge unsuccessful");
-    console.log("payment successful");
+    if (!charge) throw new Error('charge unsuccessful');
+    console.log('payment successful');
 
     seatsBook(ticket);
     ticketSave(ticket);
     sendMail(receiptEmail);
 
-
     res.status(200).json({
-      message: "charge posted successfully",
+      message: 'charge posted successfully',
       charge,
     });
   } catch (error) {
@@ -51,7 +53,7 @@ async function ticketSave(ticket) {
 }
 
 async function seatsBook(ticket) {
-  console.log("function seatsBook");
+  console.log('function seatsBook');
 
   try {
     const finalBooking = await BookedSeat.findOneAndUpdate(
@@ -68,7 +70,7 @@ async function seatsBook(ticket) {
       },
       { new: true }
     );
-    console.log("-------- finalBooking", finalBooking);
+    console.log('-------- finalBooking', finalBooking);
 
     if (finalBooking) {
       await finalBooking.save();

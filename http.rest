@@ -14,5 +14,5 @@ GET http://localhost:5001/api/v1/stripe
 Content-Type: application/json
 
 ### get booked seats
-GET http://localhost:5001/api/v1/bookedSeats/5fa2c884539a6449d84da4e1/5f9ec9f5b0286024eceb5cdf/2020-11-13/17_00
+GET http://localhost:5001/api/v1/bookedSeats/5fa2c884539a6449d84da4e1/5f9ec9f5b0286024eceb5cd8/2020-11-14/18_00
 Content-Type: application/json
