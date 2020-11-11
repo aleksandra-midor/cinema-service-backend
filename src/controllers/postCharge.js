@@ -1,6 +1,8 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable no-empty */
-/* eslint-disable no-use-before-define */
+/* eslint-disable no-console */
 /* eslint-disable prettier/prettier */
+/* eslint-disable no-use-before-define */
 const express = require('express');
 
 const router = express.Router();
@@ -11,9 +13,6 @@ const stripe = require('stripe')(sKey);
 const sendMail = require('./sendMail');
 const Ticket = require('../models/ticket');
 const BookedSeat = require('../models/bookedSeat');
-
-router.post('/charge', postCharge);
-router.all('*', (_, res) => res.json({ message: 'please make a POST request to /stripe/charge' }));
 
 async function postCharge(req, res) {
   console.log('---- post charge');
@@ -42,6 +41,34 @@ async function postCharge(req, res) {
     });
   }
 }
+
+const postChargeNew = async (req, res) => {
+  console.log('@@@@@@@@@@@@@@@@@ postChargeNew');
+  if (req.method === 'POST') {
+    try {
+      const { ticket, source, receiptEmail } = req.body;
+      const paymentIntent = await stripe.paymentIntents.create({
+        amount: `${ticket.totalPrice}00`,
+        currency: 'sek',
+      });
+      console.log('@@@@@@@@@@@ OKAY', paymentIntent);
+      // res.status(200).send(paymentIntent.client_secret);
+      seatsBook(ticket);
+      ticketSave(ticket);
+      sendMail(receiptEmail);
+
+      res.status(200).send(paymentIntent.client_secret);
+    } catch (err) {
+      res.status(500).json({
+        statusCode: 500,
+        message: err.message,
+      });
+    }
+  } else {
+    res.setHeader('Allow', 'POST');
+    res.status(405).end('Method Not Allowed');
+  }
+};
 
 async function ticketSave(ticket) {
   try {
@@ -86,5 +113,8 @@ async function seatsBook(ticket) {
     }
   } catch (error) {}
 }
+
+router.post('/charge', postChargeNew);
+router.all('*', (_, res) => res.json({ message: 'please make a POST request to /stripe/charge' }));
 
 module.exports = router;
