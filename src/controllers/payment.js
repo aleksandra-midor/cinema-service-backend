@@ -14,7 +14,6 @@ const sendMail = require('./sendMail');
 const Ticket = require('../models/ticket');
 const BookedSeat = require('../models/bookedSeat');
 
-
 const intent = async (req, res) => {
   if (req.method === 'POST') {
     try {
