@@ -1,29 +1,28 @@
 const mailJet = require('node-mailjet');
 
 const key = process.env.MAILJET_API_KEY;
-const sKey = process.env.MAILJET_API_KEY;
+const sKey = process.env.MAILJET_SECRET_KEY;
 
 const mailjet = mailJet.connect(key, sKey);
 
-function sendMail(receiptEmail) {
+function sendMail(ticket) {
   try {
     const request = mailjet.post('send', { version: 'v3.1' }).request({
       Messages: [
         {
           From: {
             Email: 'cinema@aleksandramidor.com',
-            Name: 'Aleksandra',
+            Name: 'Cinema Paradiso',
           },
           To: [
             {
-              Email: receiptEmail,
-              Name: 'Mat',
+              Email: ticket.customerEmail,
+              Name: ticket.customerEmail,
             },
           ],
-          Subject: 'Greetings from Mailjet 2.',
+          Subject: `Ticket/s for the ${ticket.movieTitle} screening`,
           TextPart: 'My first Mailjet email',
-          HTMLPart:
-            "<h3>Dear passenger 1, welcome to <a href='https://www.mailjet.com/'>Mailjet</a>!</h3><br />May the delivery force be with you!",
+          HTMLPart: `<h3>Dear, welcome to <a href='https://www.mailjet.com/'>Mailjet</a>!</h3><br />Total price is: ${ticket.totalPrice}`,
           CustomID: 'AppGettingStartedTest',
         },
       ],
@@ -34,10 +33,10 @@ function sendMail(receiptEmail) {
         console.log(result.body);
       })
       .catch((err) => {
-        console.log(err.statusCode);
+        console.log('sendMail', err.statusCode, err);
       });
   } catch (error) {
-    console.log(error);
+    console.log('sendMail', error);
   }
 }
 

@@ -14,33 +14,6 @@ const sendMail = require('./sendMail');
 const Ticket = require('../models/ticket');
 const BookedSeat = require('../models/bookedSeat');
 
-// async function postCharge(req, res) {
-//   console.log('---- post charge');
-//   try {
-//     const { ticket, source, receiptEmail } = req.body;
-//     const charge = await stripe.charges.create({
-//       amount: `${ticket.totalPrice}00`,
-//       currency: 'sek',
-//       source,
-//       receipt_email: receiptEmail,
-//     });
-//     if (!charge) throw new Error('charge unsuccessful');
-//     console.log('payment successful');
-
-//     seatsBook(ticket);
-//     ticketSave(ticket);
-//     sendMail(receiptEmail);
-
-//     res.status(200).json({
-//       message: 'charge posted successfully',
-//       charge,
-//     });
-//   } catch (error) {
-//     res.status(500).json({
-//       message: error.message,
-//     });
-//   }
-// }
 
 const intent = async (req, res) => {
   if (req.method === 'POST') {
@@ -73,7 +46,7 @@ const confirm = async (req, res) => {
       if (ticket.paymentStatus === 'confirmed') {
         seatsBook(ticket);
         ticketSave(ticket);
-        sendMail(ticket.receiptEmail);
+        sendMail(ticket);
       }
       res.status(200).send(ticket.paymentStatus);
     } catch (err) {
