@@ -10,6 +10,8 @@ const TicketSchema = new mongoose.Schema({
   cinemaName: { type: String, required: true },
   totalPrice: { type: Number, required: true },
   customerEmail: { type: String, required: true },
+  paymentId: { type: String, require: true },
+  paymentStatus: { type: String, require: true },
 });
 
 module.exports = mongoose.model('Ticket', TicketSchema);
