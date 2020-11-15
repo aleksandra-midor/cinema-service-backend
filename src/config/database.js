@@ -1,18 +1,20 @@
-const mongoose = require("mongoose");
-require('dotenv/config')
+const mongoose = require('mongoose');
+require('dotenv/config');
+
+const chalk = require('chalk');
 
 const connect = async () => {
-  const mongoConnectionString = process.env.DB_CONNECTION
+  const mongoConnectionString = process.env.DB_CONNECTION;
   try {
-    const opts ={
-      useNewParser: true,
+    const opts = {
       useUnifiedTopology: true,
+      useNewUrlParser: true,
     };
     await mongoose.connect(mongoConnectionString, opts);
-    console.log("Connected to the database")
+    console.log(chalk.green('Connected to the database'));
   } catch (err) {
-console.log("Problem with connecting to the database")
+    console.log(chalk.red('Problem with connecting to the database'));
   }
-}
+};
 
 module.exports = { connect };
