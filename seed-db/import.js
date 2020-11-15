@@ -15,7 +15,7 @@ require('dotenv').config({ path: envFiles[process.env.NODE_ENV] });
 const config = {
   database: process.env.DB_CONNECTION,
   // dropDatabase: false,
-  // dropCollections: true,
+  dropCollections: true,
 };
 
 const seeder = new Seeder(config);
