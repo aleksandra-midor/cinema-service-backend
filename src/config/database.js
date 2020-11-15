@@ -5,6 +5,7 @@ const chalk = require('chalk');
 
 const connect = async () => {
   const mongoConnectionString = process.env.DB_CONNECTION;
+  console.log('db_connect', mongoConnectionString);
   try {
     const opts = {
       useUnifiedTopology: true,
