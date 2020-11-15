@@ -6,4 +6,6 @@ const port = process.env.PORT || 5000;
 
 connect();
 
+console.log('--- port is ', port);
+
 app.listen(port, () => console.log(`Running on Port ${port}`));
