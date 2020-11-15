@@ -1,0 +1,45 @@
+[
+  {
+    "name": "Stockholm Paradiso",
+    "city": "Stockholm",
+    "address": "Folkungagatan 12",
+    "email": "stockholm@paradiso.com",
+    "phone": "076122334454",
+    "ticketPrice": "200",
+    "repertoire": [{
+      "movieId": "5f9ec9f5b0286024eceb5cd8",
+      "movieTile": "Pulp Fiction",
+      "seance": [
+        ["14:30", "18:00"],
+        ["16:30", "19:00"],
+        [],
+        ["20:00"],
+        ["17:30", "21:00"],
+        ["13:30", "16:00","22:00"],
+        ["18:00"]
+      ]
+    },
+    {
+      "movieId": "5f9ec9f5b0286024eceb5cdf",
+      "movieTile": "Seven",
+      "seance": [
+        [],
+        ["21:00"],
+        ["16:30", "19:00"],
+        ["18:00"],
+        ["19:00"],
+        ["17:00"],
+        ["15:00", "19:30", "22:00"]
+      ]
+    }]
+  },
+  {
+    "name": "Gothenburg Paradiso",
+    "city": "Gothenburg",
+    "address": "Sofiagatan 12",
+    "email": "gothenburg@paradiso.com",
+    "phone": "076122334455",
+    "ticketPrice": "180",
+    "repertoire": []
+}
+]
