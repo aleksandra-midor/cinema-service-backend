@@ -1,6 +1,11 @@
 [
   {
-    "title": "Nyckeln till frihet",
+    "movieId": "the-shawshank-redemption_1994",
+    "title": {
+      "en": "The Shawshank Redemption",
+      "sv": "Nyckeln till frihet",
+      "pl": "Skazani na Shawshank"
+    },
     "year": "1994",
     "genres": ["Crime", "Drama"],
     "ratings": [
@@ -41,13 +46,22 @@
     "releaseDate": "1995-03-03",
     "averageRating": 0,
     "originalTitle": "The Shawshank Redemption",
-    "storyline": "Chronicles the experiences of a formerly successful banker as a prisoner in the gloomy jailhouse of Shawshank after being found guilty of a crime he did not commit. The film portrays the man's unique way of dealing with his new, torturous life; along the way he befriends a number of fellow prisoners, most notably a wise long-term inmate named Red.                Written by\nJ-S-Golden",
+    "storyline": {
+      "en": "Chronicles the experiences of a formerly successful banker as a prisoner in the gloomy jailhouse of Shawshank after being found guilty of a crime he did not commit. The film portrays the man's unique way of dealing with his new, torturous life; along the way he befriends a number of fellow prisoners, most notably a wise long-term inmate named Red",
+      "sv": "Kröniker erfarenheterna av en tidigare framgångsrik bankir som fånge i det dystra fängelset i Shawshank efter att ha blivit skyldig till ett brott han inte begick. Filmen visar mannens unika sätt att hantera sitt nya, tortyriga liv; längs vägen blir han vän med ett antal medfångar, framför allt en klok långvarig fånge som heter Red",
+      "pl": "Kroniki doświadczeń bankiera, który odniósł sukces jako więzień w ponurym więzieniu w Shawshank po tym, jak został uznany za winnego przestępstwa, którego nie popełnił. Film ukazuje wyjątkowy sposób radzenia sobie mężczyzny z nowym, pełnym tortur życiem; po drodze zaprzyjaźnia się z wieloma współwięźniami, przede wszystkim z mądrym więźniem długoterminowym imieniem Red"
+    },
     "actors": ["Tim Robbins", "Morgan Freeman", "Bob Gunton"],
-    "imdbRating": 9.3,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SY500_CR0,0,336,500_AL_.jpg"
+    "imdbRating": 9.3
   },
   {
-    "title": "Gudfadern",
+    "movieId": "the-godfather_1972",
+    "title":   {
+      "en": "Godfather",
+      "sv": "Gudfadern",
+      "pl": "Ojciec Chrzestny"
+    },
+
     "year": "1972",
     "genres": ["Crime", "Drama"],
     "ratings": [
@@ -88,13 +102,23 @@
     "releaseDate": "1972-09-27",
     "averageRating": 0,
     "originalTitle": "The Godfather",
-    "storyline": "When the aging head of a famous crime family decides to transfer his position to one of his subalterns, a series of unfortunate events start happening to the family, and a war begins between all the well-known families leading to insolence, deportation, murder and revenge, and ends with the favorable successor being finally chosen.                Written by\nJ. S. Golden",
+    "storyline": {
+      "en": "When the aging head of a famous crime family decides to transfer his position to one of his subalterns, a series of unfortunate events start happening to the family, and a war begins between all the well-known families leading to insolence, deportation, murder and revenge, and ends with the favorable successor being finally chosen.",
+      "sv": "När den åldrande chefen för en berömd brottsfamilj bestämmer sig för att överföra sin ställning till en av hans underpraktikare, börjar en serie olyckliga händelser hända familjen, och ett krig börjar mellan alla de välkända familjerna som leder till oförskämdhet, utvisning, mord och hämnd och slutar med att den gynnsamma efterträdaren slutligen väljs.",
+      "pl": "Kiedy starzejący się szef słynnej rodziny przestępczej postanawia przenieść swoje stanowisko na jednego ze swoich podwładnych, w rodzinie zaczyna się seria niefortunnych wydarzeń, a między wszystkimi znanymi rodzinami rozpoczyna się wojna prowadząca do zuchwalstwa, deportacji, morderstw i zemsta i kończy się ostatecznym wyborem korzystnego następcy."
+    },
+    
     "actors": ["Marlon Brando", "Al Pacino", "James Caan"],
-    "imdbRating": 9.2,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BZTRmNjQ1ZDYtNDgzMy00OGE0LWE4N2YtNTkzNWQ5ZDhlNGJmL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY500_CR0,0,352,500_AL_.jpg"
+    "imdbRating": 9.2
   },
   {
-    "title": "Gudfadern del II",
+    "movieId": "the-godfather-part-II_1974",
+    "title":   {
+      "en": "The Godfather: Part II",
+      "sv": "Gudfadern del II",
+      "pl": "Ojciec Chrzestny II"
+    },
+    
     "year": "1974",
     "genres": ["Crime", "Drama"],
     "ratings": [
@@ -135,13 +159,25 @@
     "releaseDate": "1975-07-28",
     "averageRating": 0,
     "originalTitle": "The Godfather: Part II",
-    "storyline": "The continuing saga of the Corleone crime family tells the story of a young Vito Corleone growing up in Sicily and in 1910s New York; and follows Michael Corleone in the 1950s as he attempts to expand the family business into Las Vegas, Hollywood and Cuba.                Written by\nKeith Loh <loh@sfu.ca>",
+    "storyline":  {
+      "en": "The continuing saga of the Corleone crime family tells the story of a young Vito Corleone growing up in Sicily and in 1910s New York; and follows Michael Corleone in the 1950s as he attempts to expand the family business into Las Vegas, Hollywood and Cuba.",
+      "sv": "Den fortsatta sagan om Corleone-brottsfamiljen berättar historien om en ung Vito Corleone som växte upp på Sicilien och 1910-talet i New York; och följer Michael Corleone på 1950-talet när han försöker utöka familjeföretaget till Las Vegas, Hollywood och Kuba.",
+      "pl": "Kontynuująca saga rodziny mafijnej Corleone opowiada historię młodego Vito Corleone dorastającego na Sycylii iw Nowym Jorku lat 10; i podąża za Michaelem Corleone w latach pięćdziesiątych XX wieku, który próbuje rozszerzyć rodzinny biznes na Las Vegas, Hollywood i Kubę."
+    },
+    
+ 
     "actors": ["Al Pacino", "Robert De Niro", "Robert Duvall"],
     "imdbRating": 9.0,
     "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjZiNzIxNTQtNDc5Zi00YWY1LThkMTctMDgzYjY4YjI1YmQyL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY500_CR0,0,351,500_AL_.jpg"
   },
   {
-    "title": "The Dark Knight",
+    "movieId": "the-dark-knight_2008",
+    "title":   {
+      "en":  "The Dark Knight",
+      "sv": "The Dark Knight",
+      "pl": "Mroczny Rycerz"
+    },
+   
     "year": "2008",
     "genres": ["Action", "Crime", "Drama"],
     "ratings": [
@@ -182,13 +218,21 @@
     "releaseDate": "2008-07-25",
     "averageRating": 0,
     "originalTitle": "The Dark Knight",
-    "storyline": "Set within a year after the events of Batman Begins, Batman, Lieutenant James Gordon, and new district attorney Harvey Dent successfully begin to round up the criminals that plague Gotham City until a mysterious and sadistic criminal mastermind known only as the Joker appears in Gotham, creating a new wave of chaos. Batman's struggle against the Joker becomes deeply personal, forcing him to \"confront everything he believes\" and improve his technology to stop him. A love triangle develops between Bruce Wayne, Dent and Rachel Dawes.                Written by\nLeon Lombardi",
+    "storyline": {
+      "en":    "Set within a year after the events of Batman Begins, Batman, Lieutenant James Gordon, and new district attorney Harvey Dent successfully begin to round up the criminals that plague Gotham City until a mysterious and sadistic criminal mastermind known only as the Joker appears in Gotham, creating a new wave of chaos. Batman's struggle against the Joker becomes deeply personal, forcing him to 'confront everything he believes' and improve his technology to stop him. A love triangle develops between Bruce Wayne, Dent and Rachel Dawes.",
+      "sv": "Batman, löjtnant James Gordon och den nya distriktsadvokaten Harvey Dent började framgångsrikt samla de brottslingar som plågar Gotham City tills ett mystiskt och sadistiskt kriminellt hjärnhår bara känt som Jokern dyker upp i Gotham, skapa en ny våg av kaos. Batmans kamp mot jokern blir djupt personlig och tvingar honom att 'konfrontera allt han tror ' och förbättra sin teknik för att stoppa honom. En kärlekstriangel utvecklas mellan Bruce Wayne, Dent och Rachel Dawes.",
+      "pl": "Akcja toczy się rok po wydarzeniach z Batman - Początek, Batman, porucznik James Gordon i nowy prokurator okręgowy Harvey Dent z powodzeniem zaczynają ścigać przestępców, którzy nękają Gotham City, dopóki w Gotham nie pojawi się tajemniczy i sadystyczny geniusz zbrodniarzy znany tylko jako Joker. tworząc nową falę chaosu. Walka Batmana z Jokerem staje się bardzo osobista, zmuszając go do 'konfrontacji ze wszystkim, w co wierzy ' i ulepszenia technologii, aby go powstrzymać. Między Brucem Waynem, Dentem i Rachel Dawes rozwija się trójkąt miłosny."
+    },
     "actors": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
-    "imdbRating": 9.0,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SY500_CR0,0,337,500_AL_.jpg"
+    "imdbRating": 9.0
   },
   {
-    "title": "12 edsvurna mon",
+    "movieId": "12-angry-men_1957",
+    "title":   {
+      "en": "12 Angry Man",
+      "sv": "12 edsvurna mon",
+      "pl": "12 Gniewnych Ludzi"
+    },
     "year": "1957",
     "genres": ["Crime", "Drama"],
     "ratings": [
@@ -229,13 +273,21 @@
     "releaseDate": "1957-07-29",
     "averageRating": 0,
     "originalTitle": "12 Angry Men",
-    "storyline": "The defense and the prosecution have rested and the jury is filing into the jury room to decide if a young man is guilty or innocent of murdering his father. What begins as an open-and-shut case of murder soon becomes a detective story that presents a succession of clues creating doubt, and a mini-drama of each of the jurors' prejudices and preconceptions about the trial, the accused, and each other. Based on the play, all of the action takes place on the stage of the jury room.                Written by\npjk <PETESID@VNET.IBM.COM>",
+    "storyline":   {
+      "en": "The defense and the prosecution have rested and the jury is filing into the jury room to decide if a young man is guilty or innocent of murdering his father. What begins as an open-and-shut case of murder soon becomes a detective story that presents a succession of clues creating doubt, and a mini-drama of each of the jurors' prejudices and preconceptions about the trial, the accused, and each other. Based on the play, all of the action takes place on the stage of the jury room.",
+      "sv": "Försvaret och åtalet har vilat och juryn lämnar in i juryrummet för att avgöra om en ung man är skyldig eller oskyldig för att ha mördat sin far. Det som börjar som ett öppet och stängt fall av mord blir snart en detektivhistoria som presenterar en följd av ledtrådar som skapar tvivel och ett minidrama över var och en av jurymedlemmarnas fördomar och förutfattningar om rättegången, de anklagade och varandra . Baserat på pjäsen äger hela handlingen rum på scenen i juryrummet.",
+      "pl": "Obrona i oskarżenie odpoczęły, a ława przysięgłych wchodzi do sali przysięgłych, aby zdecydować, czy młody człowiek jest winny, czy niewinny zamordowania swojego ojca. To, co zaczyna się jako jawna i zamknięta sprawa morderstwa, wkrótce staje się kryminałem, który przedstawia szereg wskazówek budzących wątpliwości i mini-dramat przedstawiający uprzedzenia i uprzedzenia każdego z jurorów na temat procesu, oskarżonego i siebie nawzajem . W oparciu o sztukę cała akcja rozgrywa się na scenie sali jury."
+    },
     "actors": ["Henry Fonda", "Lee J. Cobb", "Martin Balsam"],
-    "imdbRating": 8.9,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BODQwOTc5MDM2N15BMl5BanBnXkFtZTcwODQxNTEzNA@@._V1_SY500_CR0,0,333,500_AL_.jpg"
+    "imdbRating": 8.9
   },
   {
-    "title": "Schindler's List",
+    "movieId": "schindlers-list_1993",
+    "title":   {
+      "en": "Schindler's List",
+      "sv": "Schindler's List",
+      "pl": "Lista Schindlera"
+    },
     "year": "1993",
     "genres": ["Biography", "Drama", "History"],
     "ratings": [
@@ -276,13 +328,22 @@
     "releaseDate": "1994-03-04",
     "averageRating": 0,
     "originalTitle": "Schindler's List",
-    "storyline": "Oskar Schindler is a vainglorious and greedy German businessman who becomes an unlikely humanitarian amid the barbaric German Nazi reign when he feels compelled to turn his factory into a refuge for Jews. Based on the true story of Oskar Schindler who managed to save about 1100 Jews from being gassed at the Auschwitz concentration camp, it is a testament to the good in all of us.                Written by\nHarald Mayr <marvin@bike.augusta.de>",
+    "storyline":   {
+      "en": "Oskar Schindler is a vainglorious and greedy German businessman who becomes an unlikely humanitarian amid the barbaric German Nazi reign when he feels compelled to turn his factory into a refuge for Jews. Based on the true story of Oskar Schindler who managed to save about 1100 Jews from being gassed at the Auschwitz concentration camp, it is a testament to the good in all of us.",
+      "sv": "Oskar Schindler är en tuff och girig tysk affärsman som blir en osannolik humanitär bland det barbariska tyska nazistiska stycket när han känner sig tvungen att förvandla sin fabrik till en fristad för judar. Baserat på den sanna historien om Oskar Schindler som lyckades rädda cirka 1100 judar från att gasas i koncentrationslägret Auschwitz, är det ett bevis på det goda i oss alla.",
+      "pl": "Oskar Schindler jest chciwym i chciwym niemieckim biznesmenem, który w czasach barbarzyńskich rządów niemieckich nazistów staje się niezwykle humanitarnym człowiekiem, kiedy czuje się zmuszony do przekształcenia swojej fabryki w schronienie dla Żydów. Oparty na prawdziwej historii Oskara Schindlera, któremu udało się uratować około 1100 Żydów przed zagazowaniem w obozie koncentracyjnym Auschwitz, jest świadectwem dobra w każdym z nas."
+    },
     "actors": ["Liam Neeson", "Ralph Fiennes", "Ben Kingsley"],
-    "imdbRating": 8.9,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY500_CR0,0,333,500_AL_.jpg"
+    "imdbRating": 8.9
   },
   {
-    "title": "Pulp Fiction",
+    "movieId": "pulp-fiction_1994",
+    "title":   {
+      "en": "Pulp Fiction",
+      "sv": "Pulp Fiction",
+      "pl": "Pulp Fiction"
+    },
+
     "year": "1994",
     "genres": ["Crime", "Drama"],
     "ratings": [
@@ -323,13 +384,21 @@
     "releaseDate": "1994-11-25",
     "averageRating": 0,
     "originalTitle": "Pulp Fiction",
-    "storyline": "Jules Winnfield (Samuel L. Jackson) and Vincent Vega (John Travolta) are two hit men who are out to retrieve a suitcase stolen from their employer, mob boss Marsellus Wallace (Ving Rhames). Wallace has also asked Vincent to take his wife Mia (Uma Thurman) out a few days later when Wallace himself will be out of town. Butch Coolidge (Bruce Willis) is an aging boxer who is paid by Wallace to lose his weight. The lives of these seemingly unrelated people are woven together comprising of a series of funny, bizarre and uncalled-for incidents.                Written by\nSoumitra",
+    "storyline":   {
+      "en": "Jules Winnfield (Samuel L. Jackson) and Vincent Vega (John Travolta) are two hit men who are out to retrieve a suitcase stolen from their employer, mob boss Marsellus Wallace (Ving Rhames). Wallace has also asked Vincent to take his wife Mia (Uma Thurman) out a few days later when Wallace himself will be out of town. Butch Coolidge (Bruce Willis) is an aging boxer who is paid by Wallace to lose his weight. The lives of these seemingly unrelated people are woven together comprising of a series of funny, bizarre and uncalled-for incidents.",
+      "sv": "Jules Winnfield (Samuel L. Jackson) och Vincent Vega (John Travolta) är två drabbade män som är ute efter att hämta en resväska som stulits från sin arbetsgivare, pöbelboss Marsellus Wallace (Ving Rhames). Wallace har också bett Vincent att ta ut sin fru Mia (Uma Thurman) några dagar senare när Wallace själv kommer att vara utanför staden. Butch Coolidge (Bruce Willis) är en åldrande boxare som betalas av Wallace för att gå ner i vikt. Dessa till synes orelaterade människors liv är sammanvävda och består av en serie roliga, bisarra och ouppmuntrade incidenter.",
+      "pl": "Jules Winnfield (Samuel L. Jackson) i Vincent Vega (John Travolta) to dwaj płatni zabójcy, którzy chcą odzyskać walizkę skradzioną ich pracodawcy, szefowi mafii Marsellusowi Wallace'owi (Ving Rhames). Wallace poprosił również Vincenta, aby kilka dni później zabrał swoją żonę Mię (Uma Thurman), kiedy sam Wallace będzie poza miastem. Butch Coolidge (Bruce Willis) to starzejący się bokser, któremu Wallace płaci za utratę wagi. Życie tych pozornie niezwiązanych ze sobą ludzi splata się razem, składając się z serii zabawnych, dziwacznych i nie do pomyślenia incydentów."
+    },
     "actors": ["John Travolta", "Uma Thurman", "Samuel L. Jackson"],
-    "imdbRating": 8.9,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkxMTA5OTAzMl5BMl5BanBnXkFtZTgwNjA5MDc3NjE@._V1_SY500_CR0,0,336,500_AL_.jpg"
+    "imdbRating": 8.9
   },
   {
-    "title": "Den gode, den onde, den fule",
+    "movieId": "the-good-the-bad-and-the-ugly_1966",
+    "title":   {
+      "en": "The good the bad and the ugly",
+      "sv": "Den gode, den onde, den fule",
+      "pl": "Dobry, zły i brzydki"
+    },
     "year": "1966",
     "genres": ["Western"],
     "ratings": [
@@ -370,13 +439,21 @@
     "releaseDate": "1968-04-10",
     "averageRating": 0,
     "originalTitle": "The Good, the Bad and the Ugly",
-    "storyline": "Blondie (The Good) is a professional gunslinger who is out trying to earn a few dollars. Angel Eyes (The Bad) is a hit man who always commits to a task and sees it through, as long as he is paid to do so. And Tuco (The Ugly) is a wanted outlaw trying to take care of his own hide. Tuco and Blondie share a partnership together making money off Tuco's bounty, but when Blondie unties the partnership, Tuco tries to hunt down Blondie. When Blondie and Tuco come across a horse carriage loaded with dead bodies, they soon learn from the only survivor (Bill Carson) that he and a few other men have buried a stash of gold in a cemetery. Unfortunately Carson dies and Tuco only finds out the name of the cemetery, while Blondie finds out the name on the grave. Now the two must keep each other alive in order to find the gold. Angel Eyes (who had been looking for Bill Carson) discovers that Tuco and Blondie met with Carson and knows they know the location of the gold. All he needs is for the two to ...                Written by\nJeremy Thomson",
+    "storyline":   {
+      "en": "Blondie (The Good) is a professional gunslinger who is out trying to earn a few dollars. Angel Eyes (The Bad) is a hit man who always commits to a task and sees it through, as long as he is paid to do so. And Tuco (The Ugly) is a wanted outlaw trying to take care of his own hide. Tuco and Blondie share a partnership together making money off Tuco's bounty, but when Blondie unties the partnership, Tuco tries to hunt down Blondie. When Blondie and Tuco come across a horse carriage loaded with dead bodies, they soon learn from the only survivor (Bill Carson) that he and a few other men have buried a stash of gold in a cemetery. Unfortunately Carson dies and Tuco only finds out the name of the cemetery, while Blondie finds out the name on the grave. Now the two must keep each other alive in order to find the gold. Angel Eyes (who had been looking for Bill Carson) discovers that Tuco and Blondie met with Carson and knows they know the location of the gold.",
+      "sv": "Blondie (The Good) är en professionell vapenförare som är ute och försöker tjäna några dollar. Angel Eyes (The Bad) är en hit man som alltid åtar sig en uppgift och ser igenom den, så länge han får betalt för det. Och Tuco (The Ugly) är en eftersökt outlaw som försöker ta hand om sin egen hud. Tuco och Blondie delar ett partnerskap tillsammans och tjänar pengar på Tucos fördelar, men när Blondie frigör partnerskapet försöker Tuco jaga Blondie. När Blondie och Tuco stöter på en hästvagn laddad med döda kroppar lär de sig snart av den enda överlevande (Bill Carson) att han och några andra män har begravt en guldstack på en kyrkogård. Tyvärr dör Carson och Tuco får bara reda på kyrkogårdens namn, medan Blondie får reda på namnet på graven. Nu måste de två hålla varandra vid liv för att hitta guldet. Angel Eyes (som letat efter Bill Carson) upptäcker att Tuco och Blondie träffade Carson och vet att de vet var guldet befinner sig.",
+      "pl": "Blondie (The Good) to zawodowy rewolwerowiec, który próbuje zarobić kilka dolarów. Angel Eyes (The Bad) to płatny zabójca, który zawsze wykonuje zadanie i sprawdza je, o ile mu za to płaci. A Tuco (Brzydki) to poszukiwany wyjęty spod prawa, który próbuje zadbać o własną skórę. Tuco i Blondie łączą partnerstwo, zarabiając pieniądze na boundzie Tuco, ale kiedy Blondie rozwiązuje partnerstwo, Tuco próbuje polować na Blondie. Kiedy Blondie i Tuco napotykają powóz konny załadowany trupami, wkrótce dowiadują się od jedynego ocalałego (Billa Carsona), że on i kilku innych mężczyzn zakopali zapas złota na cmentarzu. Niestety Carson umiera, a Tuco dopiero dowiaduje się o nazwie cmentarza, a Blondie dowiaduje się o nazwie na grobie. Teraz obaj muszą utrzymywać się przy życiu, aby znaleźć złoto. Angel Eyes (który szukał Billa Carsona) odkrywa, że ​​Tuco i Blondie spotkali się z Carsonem i wiedzą, że znają lokalizację złota."
+    },
     "actors": ["Clint Eastwood", "Eli Wallach", "Lee Van Cleef"],
-    "imdbRating": 8.9,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BOTQ5NDI3MTI4MF5BMl5BanBnXkFtZTgwNDQ4ODE5MDE@._V1_SY500_CR0,0,328,500_AL_.jpg"
+    "imdbRating": 8.9
   },
   {
-    "title": "Inception",
+    "movieId": "inception_2010",
+    "title":   {
+      "en": "Inception",
+      "sv": "Inception",
+      "pl": "Incepcja"
+    },
     "year": "2010",
     "genres": ["Action", "Adventure", "Sci-Fi"],
     "ratings": [
@@ -417,13 +494,21 @@
     "releaseDate": "2010-07-23",
     "averageRating": 0,
     "originalTitle": "Inception",
-    "storyline": "Dom Cobb is a skilled thief, the absolute best in the dangerous art of extraction, stealing valuable secrets from deep within the subconscious during the dream state, when the mind is at its most vulnerable. Cobb's rare ability has made him a coveted player in this treacherous new world of corporate espionage, but it has also made him an international fugitive and cost him everything he has ever loved. Now Cobb is being offered a chance at redemption. One last job could give him his life back but only if he can accomplish the impossible - inception. Instead of the perfect heist, Cobb and his team of specialists have to pull off the reverse: their task is not to steal an idea but to plant one. If they succeed, it could be the perfect crime. But no amount of careful planning or expertise can prepare the team for the dangerous enemy that seems to predict their every move. An enemy that only Cobb could have seen coming.                Written by\nWarner Bros. Pictures",
+    "storyline":   {
+      "en": "Dom Cobb is a skilled thief, the absolute best in the dangerous art of extraction, stealing valuable secrets from deep within the subconscious during the dream state, when the mind is at its most vulnerable. Cobb's rare ability has made him a coveted player in this treacherous new world of corporate espionage, but it has also made him an international fugitive and cost him everything he has ever loved. Now Cobb is being offered a chance at redemption. One last job could give him his life back but only if he can accomplish the impossible - inception. Instead of the perfect heist, Cobb and his team of specialists have to pull off the reverse: their task is not to steal an idea but to plant one. If they succeed, it could be the perfect crime. But no amount of careful planning or expertise can prepare the team for the dangerous enemy that seems to predict their every move. An enemy that only Cobb could have seen coming.",
+      "sv": "Dom Cobb är en skicklig tjuv, den absolut bästa i den farliga extraktionskonsten, som stjäl värdefulla hemligheter djupt in i det undermedvetna under drömtillståndet, när sinnet är som mest utsatt. Cobb s sällsynta förmåga har gjort honom till en eftertraktad spelare i denna förrädiska nya värld av företagsspionage, men det har också gjort honom till en internationell flykting och kostat honom allt han någonsin älskat. Nu erbjuds Cobb en chans till inlösen. Ett sista jobb kan ge honom sitt liv tillbaka men bara om han kan åstadkomma det omöjliga - starten. Istället för den perfekta rånet måste Cobb och hans team av specialister dra bakåt: deras uppgift är inte att stjäla en idé utan att plantera en. Om de lyckas kan det vara det perfekta brottet. Men ingen mängd noggrann planering eller expertis kan förbereda teamet för den farliga fienden som verkar förutsäga deras varje drag. En fiende som bara Cobb kunde ha sett komma.",
+      "pl": "Dom Cobb to utalentowany złodziej, absolutnie najlepszy w niebezpiecznej sztuce wydobywania, wykradający cenne sekrety z głębi podświadomości w stanie snu, kiedy umysł jest najbardziej bezbronny. Rzadka umiejętność Cobba uczyniła go pożądanym graczem w tym zdradzieckim nowym świecie szpiegostwa korporacyjnego, ale uczyniła go również międzynarodowym zbiegiem i kosztował go wszystko, co kiedykolwiek kochał. Teraz Cobb ma szansę na odkupienie. Ostatnia praca może przywrócić mu życie, ale tylko wtedy, gdy uda mu się dokonać niemożliwego - powstania. Zamiast idealnego napadu, Cobb i jego zespół specjalistów muszą zrobić odwrotną sytuację: ich zadaniem nie jest kradzież pomysłu, ale jego zasadzenie. Jeśli im się uda, może to być zbrodnia doskonała. Jednak żadne staranne planowanie lub wiedza nie są w stanie przygotować zespołu na niebezpiecznego wroga, który wydaje się przewidywać każdy ich ruch. Wróg, którego tylko Cobb mógł przewidzieć nadchodzącego."
+    },
     "actors": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Ellen Page"],
-    "imdbRating": 8.8,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SY500_CR0,0,337,500_AL_.jpg"
+    "imdbRating": 8.8
   },
   {
-    "title": "Sagan om de tv\u00e5 tornen",
+    "movieId": "the-lord-of-the-rings-the-two-towers_2002",
+    "title": {
+      "en": "The Lord of the Rings: The Two Towers",
+      "sv": "Sagan om de två tornen",
+      "pl": "Władca pierścieni: Dwie Wieże"
+    },
     "year": "2002",
     "genres": ["Adventure", "Drama", "Fantasy"],
     "ratings": [
@@ -464,13 +549,21 @@
     "releaseDate": "2002-12-18",
     "averageRating": 0,
     "originalTitle": "The Lord of the Rings: The Two Towers",
-    "storyline": "While Frodo and Sam, now accompanied by a new guide, continue their hopeless journey towards the land of shadow to destroy the One Ring, each member of the broken fellowship plays their part in the battle against the evil wizard Saruman and his armies of Isengard.",
+    "storyline":   {
+      "en": "While Frodo and Sam, now accompanied by a new guide, continue their hopeless journey towards the land of shadow to destroy the One Ring, each member of the broken fellowship plays their part in the battle against the evil wizard Saruman and his armies of Isengard.",
+      "sv": "Medan Frodo och Sam, som nu åtföljs av en ny guide, fortsätter sin hopplösa resa mot skugglandet för att förstöra den ena ringen, spelar varje medlem av det trasiga gemenskapen sin roll i striden mot den onda trollkarlen Saruman och hans arméer av Isengard.",
+      "pl": "Podczas gdy Frodo i Sam, teraz w towarzystwie nowego przewodnika, kontynuują beznadziejną podróż w kierunku krainy cienia, aby zniszczyć Jedyny Pierścień, każdy członek rozbitej społeczności odgrywa swoją rolę w walce ze złym czarodziejem Sarumanem i jego armiami z Isengardu."
+    },
     "actors": ["Elijah Wood", "Ian McKellen", "Viggo Mortensen"],
-    "imdbRating": 8.7,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTAyNDU0NjY4NTheQTJeQWpwZ15BbWU2MDk4MTY2Nw@@._V1_SY256_SX175_AL_.jpg"
+    "imdbRating": 8.7
   },
   {
-    "title": "G\u00f6kboet",
+    "movieId": "one-flew-over-the-cuckoos-nest_1975",
+    "title": {
+      "en": "One Flew Over the Cuckoo's Nest",
+      "sv": "Gökboet",
+      "pl": "Lot nad kukułczym gniazdem"
+    },
     "year": "1975",
     "genres": ["Drama"],
     "ratings": [
@@ -510,14 +603,23 @@
     "duration": "PT133M",
     "releaseDate": "1976-02-26",
     "averageRating": 0,
-    "originalTitle": "One Flew Over the Cuckoo's Nest",
-    "storyline": "McMurphy has a criminal past and has once again gotten himself into trouble and is sentenced by the court. To escape labor duties in prison, McMurphy pleads insanity and is sent to a ward for the mentally unstable. Once here, McMurphy both endures and stands witness to the abuse and degradation of the oppressive Nurse Ratched, who gains superiority and power through the flaws of the other inmates. McMurphy and the other inmates band together to make a rebellious stance against the atrocious Nurse.                Written by\nJacob Oberfrank",
+    "originalTitle":  "One Flew Over the Cuckoo's Nest",
+    "storyline": {
+      "en": "McMurphy has a criminal past and has once again gotten himself into trouble and is sentenced by the court. To escape labor duties in prison, McMurphy pleads insanity and is sent to a ward for the mentally unstable. Once here, McMurphy both endures and stands witness to the abuse and degradation of the oppressive Nurse Ratched, who gains superiority and power through the flaws of the other inmates. McMurphy and the other inmates band together to make a rebellious stance against the atrocious Nurse.",
+      "sv": "McMurphy har ett kriminellt förflutet och har återigen hamnat i trubbel och döms av domstolen. För att undkomma arbetsuppgifter i fängelse vädjar McMurphy till galenskap och skickas till en avdelning för de mentalt instabila. En gång här uthärdar McMurphy och står vittne till den förtryckande sjuksköterskan Ratcheds övergrepp och nedbrytning, som får överlägsenhet och makt genom de andra fängelsernas brister. McMurphy och de andra fångarna samlas för att göra en upprorisk hållning mot den fruktansvärda sjuksköterskan.",
+      "pl": "McMurphy ma kryminalną przeszłość i po raz kolejny wpadł w kłopoty i został skazany przez sąd. Aby uciec od pracy w więzieniu, McMurphy błaga o szaleństwo i zostaje wysłany na oddział dla niestabilnych psychicznie. Będąc tutaj, McMurphy zarówno znosi, jak i jest świadkiem znęcania się i poniżania uciskającej pielęgniarki Ratched, która zyskuje przewagę i władzę dzięki wadom innych więźniów. McMurphy i pozostali więźniowie zbierają się razem, by zająć buntowniczą postawę przeciwko okrutnej Pielęgniarce."
+    },
     "actors": ["Jack Nicholson", "Louise Fletcher", "Michael Berryman"],
-    "imdbRating": 8.7,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BZjA0OWVhOTAtYWQxNi00YzNhLWI4ZjYtNjFjZTEyYjJlNDVlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY500_CR0,0,336,500_AL_.jpg"
+    "imdbRating": 8.7
   },
   {
-    "title": "Matrix",
+    "movieId": "matrix_1999",
+    "title":  {
+      "en": "Matrix",
+      "sv": "Matrix",
+      "pl": "Matrix"
+    },
+
     "year": "1999",
     "genres": ["Action", "Sci-Fi"],
     "ratings": [
@@ -558,13 +660,22 @@
     "releaseDate": "1999-07-14",
     "averageRating": 0,
     "originalTitle": "The Matrix",
-    "storyline": "Thomas A. Anderson is a man living two lives. By day he is an average computer programmer and by night a hacker known as Neo. Neo has always questioned his reality, but the truth is far beyond his imagination. Neo finds himself targeted by the police when he is contacted by Morpheus, a legendary computer hacker branded a terrorist by the government. Morpheus awakens Neo to the real world, a ravaged wasteland where most of humanity have been captured by a race of machines that live off of the humans' body heat and electrochemical energy and who imprison their minds within an artificial reality known as the Matrix. As a rebel against the machines, Neo must return to the Matrix and confront the agents: super-powerful computer programs devoted to snuffing out Neo and the entire human rebellion.                Written by\nredcommander27",
+    "storyline":  {
+      "en": "Thomas A. Anderson is a man living two lives. By day he is an average computer programmer and by night a hacker known as Neo. Neo has always questioned his reality, but the truth is far beyond his imagination. Neo finds himself targeted by the police when he is contacted by Morpheus, a legendary computer hacker branded a terrorist by the government. Morpheus awakens Neo to the real world, a ravaged wasteland where most of humanity have been captured by a race of machines that live off of the humans' body heat and electrochemical energy and who imprison their minds within an artificial reality known as the Matrix. As a rebel against the machines, Neo must return to the Matrix and confront the agents: super-powerful computer programs devoted to snuffing out Neo and the entire human rebellion. ",
+      "sv": "Thomas A. Anderson är en man som lever två liv. Om dagen är han en genomsnittlig datorprogrammerare och på natten en hackare som kallas Neo. Neo har alltid ifrågasatt sin verklighet, men sanningen är långt bortom hans fantasi. Neo befinner sig riktad av polisen när han kontaktas av Morpheus, en legendarisk datorhacker som regeringen märkt en terrorist. Morpheus väcker Neo till den verkliga världen, en härjad ödemark där det mesta av mänskligheten har fångats av ett lopp av maskiner som lever av människors kroppsvärme och elektrokemiska energi och som fängslar sina sinnen inom en artificiell verklighet som kallas Matrisen. Som en rebell mot maskinerna måste Neo återvända till Matrisen och konfrontera agenterna: superkraftiga datorprogram som ägnas åt att snuffa ut Neo och hela det mänskliga upproret.",
+      "pl": "Thomas A. Anderson to mężczyzna, który żyje dwa razy. W dzień jest przeciętnym programistą komputerowym, a nocą hakerem znanym jako Neo. Neo zawsze kwestionował swoją rzeczywistość, ale prawda jest daleko poza jego wyobraźnią. Neo znajduje się na celowniku policji, gdy kontaktuje się z nim Morfeusz, legendarny haker komputerowy, którego rząd nazwał terrorystą. Morfeusz budzi Neo do prawdziwego świata, spustoszonego pustkowia, gdzie większość ludzkości została schwytana przez rasę maszyn, które żyją z ciepła ludzkiego ciała i energii elektrochemicznej i które uwięzią swoje umysły w sztucznej rzeczywistości znanej jako Matrix. Jako buntownik przeciwko maszynom, Neo musi powrócić do Matrixa i zmierzyć się z agentami: supermocnymi programami komputerowymi, których celem jest zdławienie Neo i całego ludzkiego buntu."
+    },
     "actors": ["Keanu Reeves", "Laurence Fishburne", "Carrie-Anne Moss"],
-    "imdbRating": 8.7,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY500_CR0,0,332,500_AL_.jpg"
+    "imdbRating": 8.7
   },
   {
-    "title": "Guds stad",
+    "movieId": "city-of-god_2002",
+    "title":   {
+      "en": "City of God",
+      "sv": "Guds stad",
+      "pl": "Miasto Boga"
+    },
+ 
     "year": "2002",
     "genres": ["Crime", "Drama"],
     "ratings": [
@@ -605,13 +716,21 @@
     "releaseDate": "2003-10-17",
     "averageRating": 0,
     "originalTitle": "City of God",
-    "storyline": "Brazil, 1960s, City of God. The Tender Trio robs motels and gas trucks. Younger kids watch and learn well...too well. 1970s: Li'l Z\u00e9 has prospered very well and owns the city. He causes violence and fear as he wipes out rival gangs without mercy. His best friend Ben\u00e9 is the only one to keep him on the good side of sanity. Rocket has watched these two gain power for years, and he wants no part of it. Yet he keeps getting swept up in the madness. All he wants to do is take pictures. 1980s: Things are out of control between the last two remaining gangs...will it ever end? Welcome to the City of God.                Written by\nJeff Mellinger <jeffmellinger@astound.net>",
+    "storyline":   {
+      "en": "Brazil, 1960s, City of God. The Tender Trio robs motels and gas trucks. Younger kids watch and learn well...too well. 1970s: Li'l has prospered very well and owns the city. He causes violence and fear as he wipes out rival gangs without mercy. His best friend Ben is the only one to keep him on the good side of sanity. Rocket has watched these two gain power for years, and he wants no part of it. Yet he keeps getting swept up in the madness. All he wants to do is take pictures. 1980s: Things are out of control between the last two remaining gangs...will it ever end? Welcome to the City of God.",
+      "sv": "Brasilien, 1960-talet, Guds stad. Tender Trio berövar motell och gasbilar. Yngre barn tittar och lär sig bra ... för bra. 1970-talet: Li'l har blomstrat mycket bra och äger staden. Han orsakar våld och rädsla när han utplånar rivaliserande gäng utan nåd. Hans bästa vän Ben är den enda som håller honom på den goda sidan av sanity. Rocket har sett dessa två få kraft i flera år, och han vill inte ha någon del av det. Ändå blir han sopad av galenskapen. Allt han vill göra är att ta bilder. 1980-talet: Saker är utom kontroll mellan de två sista kvarvarande gängen ... kommer det någonsin att ta slut? Välkommen till Guds stad.",
+      "pl": "Brazylia, lata 60., Miasto Boga. Tender Trio okrada motele i ciężarówki z gazem. Młodsze dzieci dobrze oglądają i uczą się ... zbyt dobrze. Lata 70 .: Li'l prosperował bardzo dobrze i jest właścicielem miasta. Powoduje przemoc i strach, gdy bez litości unicestwia rywalizujące gangi. Jego najlepszy przyjaciel Ben jest jedynym, który utrzymuje go po dobrej stronie zdrowia psychicznego. Rocket od lat obserwował, jak ta dwójka zyskuje moc i nie chce mieć w tym udziału. A jednak wciąż daje się ponieść szaleństwu. Chce tylko robić zdjęcia. Lata 80 .: Sprawy wymykają się spod kontroli między dwoma ostatnimi pozostałymi gangami… czy to się kiedyś skończy? Witamy w Mieście Boga."
+    },
     "actors": ["Alexandre Rodrigues", "Matheus Nachtergaele", "Leandro Firmino"],
-    "imdbRating": 8.7,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA4ODQ3ODkzNV5BMl5BanBnXkFtZTYwOTc4NDI3._V1_SX200_CR0,0,200,296_AL_.jpg"
+    "imdbRating": 8.7
   },
   {
-    "title": "Seven",
+    "movieId": "seven_1995",
+    "title": {
+      "en": "Seven",
+      "sv": "Seven",
+      "pl": "Siedem"
+    },
     "year": "1995",
     "genres": ["Crime", "Drama", "Mystery"],
     "ratings": [
@@ -652,13 +771,21 @@
     "releaseDate": "1995-12-25",
     "averageRating": 0,
     "originalTitle": "Seven",
-    "storyline": "A film about two homicide detectives' (Morgan Freeman and (Brad Pitt desperate hunt for a serial killer who justifies his crimes as absolution for the world's ignorance of the Seven Deadly Sins. The movie takes us from the tortured remains of one victim to the next as the sociopathic \"John Doe\" (Kevin Spacey) sermonizes to Detectives Somerset and Mills -- one sin at a time. The sin of Gluttony comes first and the murderer's terrible capacity is graphically demonstrated in the dark and subdued tones characteristic of film noir. The seasoned and cultured but jaded Somerset researches the Seven Deadly Sins in an effort to understand the killer's modus operandi while the bright but green and impulsive Detective Mills (Pitt) scoffs at his efforts to get inside the mind of a killer...                Written by\nMark Fleetwood <mfleetwo@mail.coin.missouri.edu>",
+    "storyline":   {
+      "en": "A film about two homicide detectives' (Morgan Freeman and (Brad Pitt desperate hunt for a serial killer who justifies his crimes as absolution for the world's ignorance of the Seven Deadly Sins. The movie takes us from the tortured remains of one victim to the next as the sociopathic 'John Doe' (Kevin Spacey) sermonizes to Detectives Somerset and Mills -- one sin at a time. The sin of Gluttony comes first and the murderer's terrible capacity is graphically demonstrated in the dark and subdued tones characteristic of film noir. The seasoned and cultured but jaded Somerset researches the Seven Deadly Sins in an effort to understand the killer's modus operandi while the bright but green and impulsive Detective Mills (Pitt) scoffs at his efforts to get inside the mind of a killer... ",
+      "sv": "En film om två morddetektiver '(Morgan Freeman och (Brad Pitt desperat på jakt efter en seriemördare som motiverar sina brott som absolut för världens okunnighet om de sju dödssynderna. Filmen tar oss från de torterade resterna av ett offer till nästa) som den sociopatiska 'John Doe ' (Kevin Spacey) predikar för detektiverna Somerset och Mills - en synd i taget. Gluttony synd kommer först och mördarens fruktansvärda kapacitet demonstreras grafiskt i de mörka och dämpade toner som är karakteristiska för film Noir. Den erfarna och kultiverade men trasiga Somerset forskar på de sju dödssynderna i ett försök att förstå mördarens modus operandi medan de ljusa men gröna och impulsiva detektivfräsarna (Pitt) spottar hans ansträngningar att komma in i en mördares sinne ...",
+      "pl": "Film o dwóch detektywach z wydziału zabójstw ”(Morgan Freeman i (Brad Pitt desperacko poluje na seryjnego mordercę, który usprawiedliwia swoje zbrodnie rozgrzeszeniem za ignorancję świata w zakresie siedmiu grzechów głównych). Film przenosi nas od torturowanych szczątków jednej ofiary do drugiej jak socjopatyczny 'John Doe ' (Kevin Spacey) wygłasza kazanie detektywom Somerset i Mills - jeden grzech na raz. Grzech Łakomstwa jest pierwszy, a straszne zdolności mordercy są przedstawione graficznie w ciemnych i stonowanych tonach charakterystycznych dla filmu noir. Doświadczony i kulturalny, ale zblazowany Somerset bada Siedem Grzechów Głównych, próbując zrozumieć modus operandi zabójcy, podczas gdy bystry, ale zielony i impulsywny Detective Mills (Pitt) szydzi z jego wysiłków, by dostać się do umysłu zabójcy ..."
+    },
     "actors": ["Morgan Freeman", "Brad Pitt", "Kevin Spacey"],
-    "imdbRating": 8.6,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BOTUwODM5MTctZjczMi00OTk4LTg3NWUtNmVhMTAzNTNjYjcyXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY500_CR0,0,319,500_AL_.jpg"
+    "imdbRating": 8.6
   },
   {
-    "title": "N\u00e4r lammen tystnar",
+    "movieId": "the-silence-of-the-lambs_1991",
+    "title":   {
+      "en": "The Silence of the Lambs",
+      "sv": "När Lammen Tystnar",
+      "pl": "Milczenie Owiec"
+    },
     "year": "1991",
     "genres": ["Crime", "Drama", "Thriller"],
     "ratings": [
@@ -699,13 +826,21 @@
     "releaseDate": "1991-03-22",
     "averageRating": 0,
     "originalTitle": "The Silence of the Lambs",
-    "storyline": "FBI trainee Clarice Starling works hard to advance her career, including trying to hide or put behind her West Virginia roots, of which if some knew would automatically classify her as being backward or white trash. After graduation, she aspires to work in the agency's Behavioral Science Unit under the leadership of Jack Crawford. While she is still a trainee, Crawford does ask her to question Dr. Hannibal Lecter, a psychiatrist imprisoned thus far for eight years in maximum security isolation for being a serial killer, he who cannibalized his victims. Clarice is able to figure out the assignment is to pick Lecter's brains to help them solve another serial murder case, that of someone coined by the media as Buffalo Bill who has so far killed five victims, all located in the eastern US, all young women who are slightly overweight especially around the hips, all who were drowned in natural bodies of water, and all who were stripped of large swaths of skin. She also figures that Crawford...                Written by\nHuggo",
+    "storyline":   {
+      "en": "FBI trainee Clarice Starling works hard to advance her career, including trying to hide or put behind her West Virginia roots, of which if some knew would automatically classify her as being backward or white trash. After graduation, she aspires to work in the agency's Behavioral Science Unit under the leadership of Jack Crawford. While she is still a trainee, Crawford does ask her to question Dr. Hannibal Lecter, a psychiatrist imprisoned thus far for eight years in maximum security isolation for being a serial killer, he who cannibalized his victims. Clarice is able to figure out the assignment is to pick Lecter's brains to help them solve another serial murder case, that of someone coined by the media as Buffalo Bill who has so far killed five victims, all located in the eastern US, all young women who are slightly overweight especially around the hips, all who were drowned in natural bodies of water, and all who were stripped of large swaths of skin. She also figures that Crawford...  ",
+      "sv": "FBI-trainee Clarice Starling arbetar hårt för att främja sin karriär, inklusive att försöka gömma sig eller lägga bakom sina West Virginia-rötter, varav om vissa visste automatiskt skulle klassificera henne som bakåt eller vitt skräp. Efter examen strävar hon efter att arbeta på byråns enhet för beteendevetenskap under ledning av Jack Crawford. Medan hon fortfarande är praktikant ber Crawford henne att ifrågasätta doktor Hannibal Lecter, en psykiater som hittills fängslats i åtta år i maximal säkerhetsisolering för att vara en seriemördare, han som kannibaliserade sina offer. Clarice kan räkna ut att uppdraget är att plocka Lecters hjärnor för att hjälpa dem att lösa ett annat seriemordsfall, det av någon som media myntade som Buffalo Bill som hittills har dödat fem offer, alla i östra USA, alla unga kvinnor som är lite överviktiga, särskilt runt höfterna, alla som drunknade i naturliga vattendrag och alla som var borttagna av stora hudsträngar. Hon figurerar också att Crawford ...",
+      "pl": "Stażystka FBI Clarice Starling ciężko pracuje, aby rozwinąć swoją karierę, w tym próbuje ukryć swoje korzenie w Wirginii Zachodniej, z których gdyby ktoś wiedział, automatycznie zaklasyfikowałby ją jako zacofaną lub białą śmieć. Po ukończeniu studiów aspiruje do pracy w Behavioural Science Unit pod kierownictwem Jacka Crawforda. Chociaż nadal jest stażystką, Crawford prosi ją o przesłuchanie doktora Hannibala Lectera, psychiatry uwięzionego do tej pory na osiem lat w maksymalnej izolacji za seryjny morderca, który kanibalizował swoje ofiary. Clarice jest w stanie zrozumieć, że zadanie polega na wybraniu mózgów Lectera, aby pomóc im rozwiązać kolejną sprawę seryjnego morderstwa, kogoś ukutego przez media jako Buffalo Bill, który do tej pory zabił pięć ofiar, wszystkie zlokalizowane we wschodnich Stanach Zjednoczonych, wszystkie młode kobiety którzy mają niewielką nadwagę, zwłaszcza w okolicach bioder, wszyscy, którzy utonęli w naturalnych zbiornikach wodnych i wszyscy, którzy zostali pozbawieni dużych połaci skóry. Ona również uważa, że ​​Crawford ..."
+    },
     "actors": ["Jodie Foster", "Anthony Hopkins", "Lawrence A. Bonney"],
-    "imdbRating": 8.6,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ2NzkzMDI4OF5BMl5BanBnXkFtZTcwMDA0NzE1NA@@._V1_SY500_CR0,0,333,500_AL_.jpg"
+    "imdbRating": 8.6
   },
   {
-    "title": "Livet \u00e4r underbart",
+    "movieId": "its-a-wonderful-life_1964",
+    "title":   {
+      "en": "It's a Wonderful Life",
+      "sv":  "Livet är underbart",
+      "pl": "Życie jest piękne"
+    },
     "year": "1946",
     "genres": ["Drama", "Family", "Fantasy"],
     "ratings": [
@@ -746,13 +881,22 @@
     "releaseDate": "1947-08-04",
     "averageRating": 0,
     "originalTitle": "It's a Wonderful Life",
-    "storyline": "George Bailey has spent his entire life giving of himself to the people of Bedford Falls. He has always longed to travel but never had the opportunity in order to prevent rich skinflint Mr. Potter from taking over the entire town. All that prevents him from doing so is George's modest building and loan company, which was founded by his generous father. But on Christmas Eve, George's Uncle Billy loses the business's $8,000 while intending to deposit it in the bank. Potter finds the misplaced money and hides it from Billy. When the bank examiner discovers the shortage later that night, George realizes that he will be held responsible and sent to jail and the company will collapse, finally allowing Potter to take over the town. Thinking of his wife, their young children, and others he loves will be better off with him dead, he contemplates suicide. But the prayers of his loved ones result in a gentle angel named Clarence coming to earth to help George, with the promise of earning his ...                Written by\nalfiehitchie",
+    "storyline":   {
+      "en": "George Bailey has spent his entire life giving of himself to the people of Bedford Falls. He has always longed to travel but never had the opportunity in order to prevent rich skinflint Mr. Potter from taking over the entire town. All that prevents him from doing so is George's modest building and loan company, which was founded by his generous father. But on Christmas Eve, George's Uncle Billy loses the business's $8,000 while intending to deposit it in the bank. Potter finds the misplaced money and hides it from Billy. When the bank examiner discovers the shortage later that night, George realizes that he will be held responsible and sent to jail and the company will collapse, finally allowing Potter to take over the town. Thinking of his wife, their young children, and others he loves will be better off with him dead, he contemplates suicide. But the prayers of his loved ones result in a gentle angel named Clarence coming to earth to help George, with the promise of earning his ... ",
+      "sv": "George Bailey har spenderat hela sitt liv på att ge sig själv till folket i Bedford Falls. Han har alltid längtat efter att resa men aldrig haft möjlighet att förhindra att rik hudflint Mr. Potter tar över hela staden. Allt som hindrar honom från att göra det är Georges blygsamma bygg- och låneföretag, som grundades av hans generösa far. Men på julafton förlorar Georges farbror Billy företagets 8 000 dollar medan han tänker sätta in det på banken. Potter hittar de felplacerade pengarna och döljer dem för Billy. När bankgranskaren upptäcker bristen senare samma natt, inser George att han kommer att hållas ansvarig och skickas till fängelse och företaget kommer att kollapsa och slutligen tillåta Potter att ta över staden. Att tänka på sin fru, deras små barn och andra han älskar kommer att ha det bättre med honom död, han överväger självmord. Men hans nära och kära böner resulterar i att en mild ängel vid namn Clarence kommer till jorden för att hjälpa George med löftet att tjäna sitt ...",
+      "pl": "George Bailey całe życie poświęcił mieszkańcom Bedford Falls. Zawsze tęsknił za podróżą, ale nigdy nie miał okazji, aby nie dopuścić do przejęcia całego miasta przez bogatego krzemiennego pana Pottera. Wszystko, co mu na to przeszkadza, to skromna firma budowlano-pożyczkowa George'a, którą założył jego hojny ojciec. Ale w Wigilię wujek George'a Billy traci 8000 dolarów firmy, zamierzając zdeponować je w banku. Potter znajduje zagubione pieniądze i ukrywa je przed Billy'm. Kiedy egzaminator bankowy odkrywa niedobór później tej nocy, George zdaje sobie sprawę, że zostanie pociągnięty do odpowiedzialności i wysłany do więzienia, a firma upadnie, co w końcu pozwoli Potterowi przejąć miasto. Myśląc o swojej żonie, ich małych dzieciach i innych, których kocha, będzie lepiej, gdy zginie, rozważa samobójstwo. Ale modlitwy jego bliskich powodują, że łagodny anioł imieniem Clarence przychodzi na ziemię, aby pomóc George'owi, z obietnicą zasłużenia na jego ..."
+    },
+
     "actors": ["James Stewart", "Donna Reed", "Lionel Barrymore"],
-    "imdbRating": 8.6,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMzMzY5NDc4M15BMl5BanBnXkFtZTcwMzc4NjIxNw@@._V1_SY500_CR0,0,334,500_AL_.jpg"
+    "imdbRating": 8.6
   },
   {
-    "title": "De misst\u00e4nkta",
+    "movieId": "the-usual-suspects_1995",
+    "title": {
+      "en": "The Usual Suspects",
+      "sv":  "De misstänkta",
+      "pl": "Podejrzani"
+    },
     "year": "1995",
     "genres": ["Crime", "Drama", "Mystery"],
     "ratings": [
@@ -793,13 +937,21 @@
     "releaseDate": "1995-11-03",
     "averageRating": 0,
     "originalTitle": "The Usual Suspects",
-    "storyline": "Following a truck hijack in New York, five conmen are arrested and brought together for questioning. As none of them are guilty, they plan a revenge operation against the police. The operation goes well, but then the influence of a legendary mastermind criminal called Keyser S\u00f6ze is felt. It becomes clear that each one of them has wronged S\u00f6ze at some point and must pay back now. The payback job leaves 27 men dead in a boat explosion, but the real question arises now: Who actually is Keyser S\u00f6ze?                Written by\nSoumitra",
+    "storyline":   {
+      "en": "Following a truck hijack in New York, five conmen are arrested and brought together for questioning. As none of them are guilty, they plan a revenge operation against the police. The operation goes well, but then the influence of a legendary mastermind criminal called Keyser Suze is felt. It becomes clear that each one of them has wronged Suze at some point and must pay back now. The payback job leaves 27 men dead in a boat explosion, but the real question arises now: Who actually is Keyser Suze?",
+      "sv": "Efter en lastbilskapning i New York arresteras och samlas fem conmen för förhör. Eftersom ingen av dem är skyldiga planerar de en hämndoperation mot polisen. Operationen går bra, men då känns inflytandet från en legendarisk mastermind-kriminell som heter Keyser Suze. Det blir tydligt att var och en av dem har gjort orätt mot Suze någon gång och måste betala tillbaka nu. Återbetalningsjobbet lämnar 27 män döda i en båtexplosion, men den verkliga frågan uppstår nu: Vem är egentligen Keyser Suze?",
+      "pl": "Po porwaniu ciężarówki w Nowym Jorku pięciu oszustów zostaje aresztowanych i zebranych na przesłuchanie. Ponieważ żaden z nich nie jest winny, planują zemstę na policji. Operacja przebiega dobrze, ale potem wyczuwalny jest wpływ legendarnego przestępcy o imieniu Keyser Suze. Staje się jasne, że każdy z nich skrzywdził Suze w pewnym momencie i musi teraz się odwdzięczyć. Zemsta 27 mężczyzn zginęło w eksplozji łodzi, ale teraz pojawia się prawdziwe pytanie: kim właściwie jest Keyser Suze?"
+    },
     "actors": ["Kevin Spacey", "Gabriel Byrne", "Chazz Palminteri"],
-    "imdbRating": 8.6,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMzI1MjI5MDQyOV5BMl5BanBnXkFtZTcwNzE4Mjg3NA@@._V1_SY500_CR0,0,333,500_AL_.jpg"
+    "imdbRating": 8.6
   },
   {
-    "title": "Livet \u00e4r underbart",
+    "movieId": "la-vita-bella_1997",
+    "title": {
+      "en": "Life is Beautifull",
+      "sv": "Livet är underbart",
+      "pl": "Życie jest piękne"
+    },
     "year": "1997",
     "genres": ["Comedy", "Drama", "War"],
     "ratings": [
@@ -840,13 +992,21 @@
     "releaseDate": "1999-01-22",
     "averageRating": 0,
     "originalTitle": "La vita bella",
-    "storyline": "In 1930s Italy, a carefree Jewish book keeper named Guido starts a fairy tale life by courting and marrying a lovely woman from a nearby city. Guido and his wife have a son and live happily together until the occupation of Italy by German forces. In an attempt to hold his family together and help his son survive the horrors of a Jewish Concentration Camp, Guido imagines that the Holocaust is a game and that the grand prize for winning is a tank.                Written by\nAnthony Hughes <husnock31@hotmail.com>",
+    "storyline":   {
+      "en": "In 1930s Italy, a carefree Jewish book keeper named Guido starts a fairy tale life by courting and marrying a lovely woman from a nearby city. Guido and his wife have a son and live happily together until the occupation of Italy by German forces. In an attempt to hold his family together and help his son survive the horrors of a Jewish Concentration Camp, Guido imagines that the Holocaust is a game and that the grand prize for winning is a tank.  ",
+      "sv": "På 1930-talet startar Italien en sorglös judisk bokhållare vid namn Guido ett sagoliv genom att uppvakta och gifta sig med en underbar kvinna från en närliggande stad. Guido och hans fru har en son och lever lyckligt tillsammans tills de tyska styrkorna ockuperade Italien. I ett försök att hålla sin familj tillsammans och hjälpa sin son att överleva fasorna i ett judiskt koncentrationsläger, föreställer sig Guido att förintelsen är ett spel och att det stora priset för att vinna är en tank.",
+      "pl": "We Włoszech w latach 30. beztroski żydowski księgarz Guido rozpoczyna bajkowe życie, zalotując się i poślubiając uroczą kobietę z pobliskiego miasta. Guido i jego żona mają syna i żyją szczęśliwie razem aż do okupacji Włoch przez wojska niemieckie. Próbując utrzymać rodzinę razem i pomóc swojemu synowi przetrwać horror żydowskiego obozu koncentracyjnego, Guido wyobraża sobie, że Holokaust to gra, a główną nagrodą za zwycięstwo jest czołg."
+    },
     "actors": ["Roberto Benigni", "Nicoletta Braschi", "Giorgio Cantarini"],
-    "imdbRating": 8.6,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BYmJmM2Q4NmMtYThmNC00ZjRlLWEyZmItZTIwOTBlZDQ3NTQ1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY500_SX335_AL_.jpg"
+    "imdbRating": 8.6
   },
   {
-    "title": "Sen to Chihiro no kamikakushi",
+    "movieId": "spirited-away_2001",
+    "title":   {
+      "en": "Spirited away",
+      "sv": "Spirited away",
+      "pl": "W krainie bogów"
+    },
     "year": "2001",
     "genres": ["Animation", "Adventure", "Family"],
     "ratings": [
@@ -886,14 +1046,22 @@
     "duration": "PT125M",
     "releaseDate": "2003-09-19",
     "averageRating": 0,
-    "originalTitle": "Spirited Away",
-    "storyline": "Chihiro and her parents are moving to a small Japanese town in the countryside, much to Chihiro's dismay. On the way to their new home, Chihiro's father makes a wrong turn and drives down a lonely one-lane road which dead-ends in front of a tunnel. Her parents decide to stop the car and explore the area. They go through the tunnel and find an abandoned amusement park on the other side, with its own little town. When her parents see a restaurant with great-smelling food but no staff, they decide to eat and pay later. However, Chihiro refuses to eat and decides to explore the theme park a bit more. She meets a boy named Haku who tells her that Chihiro and her parents are in danger, and they must leave immediately. She runs to the restaurant and finds that her parents have turned into pigs. In addition, the theme park turns out to be a town inhabited by demons, spirits, and evil gods. At the center of the town is a bathhouse where these creatures go to relax. The owner of the bathhouse ...                Written by\nZachary Harper",
+    "originalTitle": "Sen to Chihiro no kamikakushi",
+    "storyline":   {
+      "en": "Chihiro and her parents are moving to a small Japanese town in the countryside, much to Chihiro's dismay. On the way to their new home, Chihiro's father makes a wrong turn and drives down a lonely one-lane road which dead-ends in front of a tunnel. Her parents decide to stop the car and explore the area. They go through the tunnel and find an abandoned amusement park on the other side, with its own little town. When her parents see a restaurant with great-smelling food but no staff, they decide to eat and pay later. However, Chihiro refuses to eat and decides to explore the theme park a bit more. She meets a boy named Haku who tells her that Chihiro and her parents are in danger, and they must leave immediately. She runs to the restaurant and finds that her parents have turned into pigs. In addition, the theme park turns out to be a town inhabited by demons, spirits, and evil gods. At the center of the town is a bathhouse where these creatures go to relax. The owner of the bathhouse ... ",
+      "sv": "Chihiro och hennes föräldrar flyttar till en liten japansk stad på landsbygden, mycket till Chihiros bestörtning. På vägen till deras nya hem gör Chihiros far en fel sväng och kör ner en ensam enfältsväg som återvändsgränd framför en tunnel. Hennes föräldrar bestämmer sig för att stoppa bilen och utforska området. De går genom tunneln och hittar en övergiven nöjespark på andra sidan, med sin egen lilla stad. När hennes föräldrar ser en restaurang med väldoftande mat men ingen personal bestämmer de sig för att äta och betala senare. Chihiro vägrar dock att äta och bestämmer sig för att utforska temaparken lite mer. Hon träffar en pojke som heter Haku som berättar för henne att Chihiro och hennes föräldrar är i fara, och de måste gå omedelbart. Hon springer till restaurangen och upptäcker att hennes föräldrar har förvandlats till grisar. Dessutom visar sig temaparken vara en stad som bebos av demoner, andar och onda gudar. I centrum av staden finns ett badhus där dessa varelser slappnar av. Ägaren av badhuset ...",
+      "pl": "Chihiro i jej rodzice przeprowadzają się do małego japońskiego miasteczka na wsi, ku konsternacji Chihiro. W drodze do nowego domu ojciec Chihiro skręca w złym zakręcie i jedzie samotną jednopasmową drogą, która ślepe zaułki przed tunelem. Jej rodzice postanawiają zatrzymać samochód i zwiedzić okolicę. Przechodzą przez tunel i po drugiej stronie znajdują opuszczony park rozrywki z własnym miasteczkiem. Kiedy jej rodzice widzą restaurację ze wspaniale pachnącym jedzeniem, ale bez personelu, decydują się zjeść i zapłacić później. Jednak Chihiro odmawia jedzenia i postanawia nieco bardziej zwiedzić park rozrywki. Spotyka chłopca o imieniu Haku, który mówi jej, że Chihiro i jej rodzice są w niebezpieczeństwie i muszą natychmiast odejść. Biegnie do restauracji i stwierdza, że ​​jej rodzice zamienili się w świnie. Dodatkowo park rozrywki okazuje się miastem zamieszkanym przez demony, duchy i złych bogów. W centrum miasta znajduje się łaźnia, w której te stworzenia odpoczywają. Właściciel łaźni ..."
+    },
     "actors": ["Daveigh Chase", "Suzanne Pleshette", "Miyu Irino"],
-    "imdbRating": 8.6,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNmU5OTQ0OWQtOTY0OS00Yjg4LWE1NDYtNDRhYWMxYWY4OTMwXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY500_CR0,0,352,500_AL_.jpg"
+    "imdbRating": 8.6
   },
   {
-    "title": "R\u00e4dda menige Ryan",
+    "movieId": "saving-private-ryan_1998",
+    "title":  {
+      "en": "Saving Private Ryan",
+      "sv": "Rädda menige Ryan",
+      "pl": "Szeregowiec Ryan"
+    },
     "year": "1998",
     "genres": ["Drama", "War"],
     "ratings": [
@@ -934,13 +1102,21 @@
     "releaseDate": "1998-10-09",
     "averageRating": 0,
     "originalTitle": "Saving Private Ryan",
-    "storyline": "Opening with the Allied invasion of Normandy on 6 June 1944, members of the 2nd Ranger Battalion under Cpt. Miller fight ashore to secure a beachhead. Amidst the fighting, two brothers are killed in action. Earlier in New Guinea, a third brother is KIA. Their mother, Mrs. Ryan, is to receive all three of the grave telegrams on the same day. The United States Army Chief of Staff, George C. Marshall, is given an opportunity to alleviate some of her grief when he learns of a fourth brother, Private James Ryan, and decides to send out 8 men (Cpt. Miller and select members from 2nd Rangers) to find him and bring him back home to his mother...                Written by\nJ.Zelman",
+    "storyline":  {
+      "en": "Opening with the Allied invasion of Normandy on 6 June 1944, members of the 2nd Ranger Battalion under Cpt. Miller fight ashore to secure a beachhead. Amidst the fighting, two brothers are killed in action. Earlier in New Guinea, a third brother is KIA. Their mother, Mrs. Ryan, is to receive all three of the grave telegrams on the same day. The United States Army Chief of Staff, George C. Marshall, is given an opportunity to alleviate some of her grief when he learns of a fourth brother, Private James Ryan, and decides to send out 8 men (Cpt. Miller and select members from 2nd Rangers) to find him and bring him back home to his mother...",
+      "sv": "Öppnar med den allierade invasionen av Normandie den 6 juni 1944, medlemmar av den andra Rangerbataljonen under Cpt. Miller slåss i land för att säkra ett strandhuvud. Under striderna dödas två bröder i aktion. Tidigare i Nya Guinea är en tredje bror KIA. Deras mor, fru Ryan, ska ta emot alla de tre allvarliga telegrammen samma dag. Den amerikanska arméns stabschef, George C. Marshall, ges möjlighet att lindra en del av sin sorg när han får reda på en fjärde bror, privata James Ryan, och beslutar att skicka ut åtta män (Cpt. Miller och välja medlemmar från 2nd Rangers) för att hitta honom och ta honom tillbaka till sin mor ...",
+      "pl": "Otwarcie inwazji aliantów na Normandię 6 czerwca 1944 r., Członkowie 2. Batalionu Rangerów pod dowództwem kpt. Miller walczy na lądzie, aby zdobyć przyczółek. W trakcie walk ginie dwóch braci. Wcześniej na Nowej Gwinei trzecim bratem jest KIA. Ich matka, pani Ryan, ma odebrać wszystkie trzy poważne telegramy tego samego dnia. Szef sztabu armii Stanów Zjednoczonych, George C. Marshall, ma szansę złagodzić jej smutek, kiedy dowiaduje się o czwartym bracie, szeregowym Jamesie Ryanie i decyduje się wysłać 8 ludzi (kpt. Millera i wybranych członków z 2nd Rangers), aby go znaleźć i zabrać z powrotem do domu, do matki ..."
+    },
     "actors": ["Tom Hanks", "Matt Damon", "Tom Sizemore"],
-    "imdbRating": 8.6,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BZjhkMDM4MWItZTVjOC00ZDRhLThmYTAtM2I5NzBmNmNlMzI1XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_SY500_CR0,0,339,500_AL_.jpg"
+    "imdbRating": 8.6
   },
   {
-    "title": "Interstellar",
+    "movieId": "interstella_2014",
+    "title":  {
+      "en": "Interstellar",
+      "sv": "Interstellar",
+      "pl": "Interstellar"
+    },
     "year": "2014",
     "genres": ["Adventure", "Drama", "Sci-Fi"],
     "ratings": [
@@ -981,13 +1157,21 @@
     "releaseDate": "2014-11-07",
     "averageRating": 0,
     "originalTitle": "Interstellar",
-    "storyline": "Earth's future has been riddled by disasters, famines, and droughts. There is only one way to ensure mankind's survival: Interstellar travel. A newly discovered wormhole in the far reaches of our solar system allows a team of astronauts to go where no man has gone before, a planet that may have the right environment to sustain human life.",
+    "storyline":  {
+      "en": "Earth's future has been riddled by disasters, famines, and droughts. There is only one way to ensure mankind's survival: Interstellar travel. A newly discovered wormhole in the far reaches of our solar system allows a team of astronauts to go where no man has gone before, a planet that may have the right environment to sustain human life.",
+      "sv": "Jordens framtid har varit full av katastrofer, hungersnöd och torka. Det finns bara ett sätt att säkerställa mänsklighetens överlevnad: Interstellära resor. Ett nyligen upptäckt maskhål längst ut i vårt solsystem gör att ett team av astronauter kan gå dit ingen människa har gått förut, en planet som kan ha rätt miljö för att upprätthålla människolivet.",
+      "pl": "Przyszłość Ziemi została naznaczona katastrofami, głodem i suszami. Jest tylko jeden sposób na zapewnienie przetrwania ludzkości: podróże międzygwiezdne. Nowo odkryty tunel czasoprzestrzenny w najdalszych zakątkach naszego Układu Słonecznego pozwala zespołowi astronautów udać się tam, gdzie żaden człowiek nie dotarł wcześniej, planecie, która może mieć odpowiednie środowisko do podtrzymywania ludzkiego życia."
+    },
     "actors": ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain"],
-    "imdbRating": 8.6,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjIxNTU4MzY4MF5BMl5BanBnXkFtZTgwMzM4ODI3MjE@._V1_SY500_CR0,0,320,500_AL_.jpg"
+    "imdbRating": 8.6
   },
   {
-    "title": "Casablanca",
+    "movieId": "casablanca_1942",
+    "title":   {
+      "en": "Casablanca",
+      "sv": "Casablanca",
+      "pl": "Casablanca"
+    }, 
     "year": "1942",
     "genres": ["Drama", "Romance", "War"],
     "ratings": [
@@ -1028,13 +1212,21 @@
     "releaseDate": "1943-10-11",
     "averageRating": 0,
     "originalTitle": "Casablanca",
-    "storyline": "In World War II Casablanca, Rick Blaine, exiled American and former freedom fighter, runs the most popular nightspot in town. The cynical lone wolf Blaine comes into the possession of two valuable letters of transit. When Nazi Major Strasser arrives in Casablanca, the sycophantic police Captain Renault does what he can to please him, including detaining a Czechoslovak underground leader Victor Laszlo. Much to Rick's surprise, Lazslo arrives with Ilsa, Rick's one time love. Rick is very bitter towards Ilsa, who ran out on him in Paris, but when he learns she had good reason to, they plan to run off together again using the letters of transit. Well, that was their original plan....                Written by\nGary Jackson <garyjack5@cogeco.ca>",
+    "storyline":   {
+      "en": "In World War II Casablanca, Rick Blaine, exiled American and former freedom fighter, runs the most popular nightspot in town. The cynical lone wolf Blaine comes into the possession of two valuable letters of transit. When Nazi Major Strasser arrives in Casablanca, the sycophantic police Captain Renault does what he can to please him, including detaining a Czechoslovak underground leader Victor Laszlo. Much to Rick's surprise, Lazslo arrives with Ilsa, Rick's one time love. Rick is very bitter towards Ilsa, who ran out on him in Paris, but when he learns she had good reason to, they plan to run off together again using the letters of transit. Well, that was their original plan....",
+      "sv": "Under andra världskriget Casablanca driver Rick Blaine, exilamerikan och före detta frihetskämpe, stadens mest populära nattspot. Den cyniska ensamma vargen Blaine kommer i besittning av två värdefulla transiteringsbrev. När nazisten Major Strasser anländer till Casablanca gör den sycofantiska polisens kapten Renault vad han kan för att behaga honom, inklusive att fängsla en tjeckoslovakisk underjordisk ledare Victor Laszlo. Till Ricks stora förvåning anländer Lazslo med Ilsa, Ricks engångskärlek. Rick är väldigt bitter mot Ilsa, som sprang på honom i Paris, men när han får veta att hon hade goda skäl planerar de att springa av igen igen med transiteringsbrev. Det var deras ursprungliga plan ...",
+      "pl": "W Casablance z czasów II wojny światowej Rick Blaine, wygnany Amerykanin i były bojownik o wolność, prowadzi najpopularniejszy klub nocny w mieście. Cyniczny samotny wilk Blaine wchodzi w posiadanie dwóch cennych listów tranzytowych. Kiedy nazistowski major Strasser przybywa do Casablanki, pochlebny kapitan policji Renault robi wszystko, co w jego mocy, aby go zadowolić, w tym zatrzymując przywódcę czechosłowackiego podziemia Victora Laszlo. Ku zaskoczeniu Ricka, Lazslo przybywa z Ilsą, jedyną miłością Ricka. Rick jest bardzo zgorzkniały wobec Ilsy, która wybiegła na niego w Paryżu, ale kiedy dowiaduje się, że ma ku temu dobry powód, planują znowu razem uciekać, korzystając z listów przewozowych. Cóż, taki był ich pierwotny plan ...."
+    },
     "actors": ["Humphrey Bogart", "Ingrid Bergman", "Paul Henreid"],
-    "imdbRating": 8.6,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BY2IzZGY2YmEtYzljNS00NTM5LTgwMzUtMzM1NjQ4NGI0OTk0XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_SY377_SX250_AL_.jpg"
+    "imdbRating": 8.6
   },
   {
-    "title": "Den gr\u00f6na milen",
+    "movieId": "the-green-mile_1999",
+    "title":  {
+      "en": "The Green Mile",
+      "sv": "Den gröna milen",
+      "pl": "Zielona Mila"
+    },
     "year": "1999",
     "genres": ["Crime", "Drama", "Fantasy"],
     "ratings": [
@@ -1075,13 +1267,21 @@
     "releaseDate": "2000-02-11",
     "averageRating": 0,
     "originalTitle": "The Green Mile",
-    "storyline": "Death Row guards at a penitentiary, in the 1930's, have a moral dilemma with their job when they discover one of their prisoners, a convicted murderer, has a special gift.                Written by\nGuy Johns",
+    "storyline":  {
+      "en": "Death Row guards at a penitentiary, in the 1930's, have a moral dilemma with their job when they discover one of their prisoners, a convicted murderer, has a special gift.      ",
+      "sv": "Death Row-vakter vid ett kriminalvård på 1930-talet har ett moraliskt dilemma med sitt jobb när de upptäcker att en av sina fångar, en dömd mördare, har en speciell gåva.",
+      "pl": "Strażnicy Death Row w więzieniu w latach trzydziestych XX wieku mają dylemat moralny związany ze swoją pracą, gdy odkrywają, że jeden z ich więźniów, skazany za morderca, ma szczególny dar."
+    },
     "actors": ["Tom Hanks", "Michael Clarke Duncan", "David Morse"],
-    "imdbRating": 8.5,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTUxMzQyNjA5MF5BMl5BanBnXkFtZTYwOTU2NTY3._V1_SY370_SX250_AL_.jpg"
+    "imdbRating": 8.5
   },
   {
-    "title": "En ov\u00e4ntad v\u00e4nskap",
+    "movieId": "intouchables_2011",
+    "title":   {
+      "en": "Untouchables",
+      "sv": "En oväntad vänskap",
+      "pl": "Nietykalni"
+    },
     "year": "2011",
     "genres": ["Biography", "Comedy", "Drama"],
     "ratings": [
@@ -1122,13 +1322,22 @@
     "releaseDate": "2012-09-21",
     "averageRating": 0,
     "originalTitle": "Intouchables",
-    "storyline": "In Paris, the aristocratic and intellectual Philippe is a quadriplegic millionaire who is interviewing candidates for the position of his carer, with his red-haired secretary Magalie. Out of the blue, the rude African Driss cuts the line of candidates and brings a document from the Social Security and asks Phillipe to sign it to prove that he is seeking a job position so he can receive his unemployment benefit. Philippe challenges Driss, offering him a trial period of one month to gain experience helping him. Then Driss can decide whether he would like to stay with him or not. Driss accepts the challenge and moves to the mansion, changing the boring life of Phillipe and his employees.                Written by\nClaudio Carvalho, Rio de Janeiro, Brazil",
+    "storyline":   {
+    "en": "In Paris, the aristocratic and intellectual Philippe is a quadriplegic millionaire who is interviewing candidates for the position of his carer, with his red-haired secretary Magalie. Out of the blue, the rude African Driss cuts the line of candidates and brings a document from the Social Security and asks Phillipe to sign it to prove that he is seeking a job position so he can receive his unemployment benefit. Philippe challenges Driss, offering him a trial period of one month to gain experience helping him. Then Driss can decide whether he would like to stay with him or not. Driss accepts the challenge and moves to the mansion, changing the boring life of Phillipe and his employees. ",
+    "sv": "I Paris är den aristokratiska och intellektuella Philippe en quadriplegic miljonär som intervjuar kandidater för sin vårdgivares position med sin rödhåriga sekreterare Magalie. Utifrån det blå skär den oförskämda afrikanska Driss raden av kandidater och tar med sig ett dokument från socialförsäkringen och ber Phillipe underteckna det för att bevisa att han söker en anställning så att han kan få sin arbetslöshetsförmån. Philippe utmanar Driss och erbjuder honom en testperiod på en månad för att få erfarenhet av att hjälpa honom. Då kan Driss bestämma om han vill stanna hos honom eller inte. Driss accepterar utmaningen och flyttar till herrgården och förändrar Phillipes och hans anställdas tråkiga liv.",
+    "pl": "W Paryżu arystokrata i intelektualista Philippe jest milionerem z czterokońcem, który przeprowadza rozmowy kwalifikacyjne z kandydatami na stanowisko opiekuna, ze swoją rudowłosą sekretarką Magalie. Niespodziewanie niegrzeczny Afrykański Driss przecina kolejkę kandydatów i przynosi dokument z Ubezpieczenia Społecznego i prosi Phillipe'a o podpisanie go, aby udowodnić, że szuka pracy, aby otrzymać zasiłek dla bezrobotnych. Philippe rzuca wyzwanie Drissowi, oferując mu miesięczny okres próbny, aby zdobyć doświadczenie w pomaganiu mu. Wtedy Driss może zdecydować, czy chciałby z nim zostać, czy nie. Driss przyjmuje wyzwanie i przenosi się do rezydencji, zmieniając nudne życie Phillipe'a i jego pracowników."
+  },
     "actors": ["Fran\u00e7ois Cluzet", "Omar Sy", "Anne Le Ny"],
-    "imdbRating": 8.6,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYxNDA3MDQwNl5BMl5BanBnXkFtZTcwNTU4Mzc1Nw@@._V1_SY500_CR0,0,337,500_AL_.jpg"
+    "imdbRating": 8.6
   },
   {
-    "title": "Moderna tider",
+    "movieId": "modern-times_1936",
+    "title":   {
+      "en": "Modern Times",
+      "sv": "Moderna tider",
+      "pl": "Dzisiejsze czasy"
+    },
+    
     "year": "1936",
     "genres": ["Comedy", "Drama", "Family"],
     "ratings": [
@@ -1169,13 +1378,21 @@
     "releaseDate": "1936-04-16",
     "averageRating": 0,
     "originalTitle": "Modern Times",
-    "storyline": "Chaplins last 'silent' film, filled with sound effects, was made when everyone else was making talkies. Charlie turns against modern society, the machine age, (The use of sound in films ?) and progress. Firstly we see him frantically trying to keep up with a production line, tightening bolts. He is selected for an experiment with an automatic feeding machine, but various mishaps leads his boss to believe he has gone mad, and Charlie is sent to a mental hospital... When he gets out, he is mistaken for a communist while waving a red flag, sent to jail, foils a jailbreak, and is let out again. We follow Charlie through many more escapades before the film is out.                Written by\nColin Tinto <cst@imdb.com>",
+    "storyline":   {
+      "en": "Chaplins last 'silent' film, filled with sound effects, was made when everyone else was making talkies. Charlie turns against modern society, the machine age, (The use of sound in films ?) and progress. Firstly we see him frantically trying to keep up with a production line, tightening bolts. He is selected for an experiment with an automatic feeding machine, but various mishaps leads his boss to believe he has gone mad, and Charlie is sent to a mental hospital... When he gets out, he is mistaken for a communist while waving a red flag, sent to jail, foils a jailbreak, and is let out again. We follow Charlie through many more escapades before the film is out. ",
+      "sv": "Chaplins senaste 'tysta' film, fylld med ljudeffekter, skapades när alla andra pratade. Charlie vänder sig mot det moderna samhället, maskinåldern, (användningen av ljud i filmer?) Och framsteg. Först ser vi honom frenetiskt försöka hålla jämna steg med en produktionslinje och dra åt bultarna. Han väljs ut för ett experiment med en automatisk matningsmaskin, men olika missöden får sin chef att tro att han har blivit galen, och Charlie skickas till ett mentalsjukhus ... När han kommer ut, misstas han som en kommunist medan han vinkar en röd flagga, skickas till fängelse, slår ut ett jailbreak och släpps ut igen. Vi följer Charlie genom många fler eskapader innan filmen är ute.",
+      "pl": "Ostatni „cichy” film kapelanów, wypełniony efektami dźwiękowymi, powstał, gdy wszyscy inni robili talkie. Charlie zwraca się przeciwko nowoczesnemu społeczeństwu, epoce maszyn (wykorzystanie dźwięku w filmach?) I postępowi. Po pierwsze widzimy, jak gorączkowo stara się nadążyć za linią produkcyjną, dokręcając śruby. Zostaje wybrany do eksperymentu z automatem do karmienia, ale różne wpadki prowadzą jego szefa do przekonania, że ​​oszalał, a Charlie zostaje wysłany do szpitala psychiatrycznego ... Kiedy wychodzi, jest pomylony z komunistą, machając czerwona flaga, wysłany do więzienia, udaremnia jailbreak i zostaje ponownie wypuszczony. Śledzimy Charliego przez wiele kolejnych eskapad, zanim film się skończy."
+    },
     "actors": ["Charles Chaplin", "Paulette Goddard", "Henry Bergman"],
-    "imdbRating": 8.5,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BYjJiZjMzYzktNjU0NS00OTkxLWEwYzItYzdhYWJjN2QzMTRlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY450_SX289_AL_.jpg"
+    "imdbRating": 8.5
   },
   {
-    "title": "Jakten p\u00e5 den f\u00f6rsvunna skatten",
+    "movieId": "raiders-of-the-lost-ark_1981",
+    "title":   {
+      "en": "Raiders of the Lost Ark",
+      "sv": "Jakten på den försvunna skatten",
+      "pl": "Poszukiwacze zaginionej Arki"
+    },
     "year": "1981",
     "genres": ["Action", "Adventure"],
     "ratings": [
@@ -1216,13 +1433,21 @@
     "releaseDate": "1981-08-07",
     "averageRating": 0,
     "originalTitle": "Raiders of the Lost Ark",
-    "storyline": "The year is 1936. An archeology professor named Indiana Jones is venturing in the jungles of South America searching for a golden statue. Unfortunately, he sets off a deadly trap but miraculously escapes. Then, Jones hears from a museum curator named Marcus Brody about a biblical artifact called The Ark of the Covenant, which can hold the key to humanly existence. Jones has to venture to vast places such as Nepal and Egypt to find this artifact. However, he will have to fight his enemy Rene Belloq and a band of Nazis in order to reach it.                Written by\nJohn Wiggins",
+    "storyline":   {
+    "en": "The year is 1936. An archeology professor named Indiana Jones is venturing in the jungles of South America searching for a golden statue. Unfortunately, he sets off a deadly trap but miraculously escapes. Then, Jones hears from a museum curator named Marcus Brody about a biblical artifact called The Ark of the Covenant, which can hold the key to humanly existence. Jones has to venture to vast places such as Nepal and Egypt to find this artifact. However, he will have to fight his enemy Rene Belloq and a band of Nazis in order to reach it.",
+    "sv": "Året är 1936. En arkeologiprofessor vid namn Indiana Jones vågar i djungeln i Sydamerika och letar efter en gyllene staty. Tyvärr sätter han igång en dödlig fälla men flyr mirakulöst. Därefter hör Jones från en museumskonservator vid namn Marcus Brody om en biblisk artefakt som heter The Ark of the Covenant, som kan innehålla nyckeln till mänsklig existens. Jones måste våga sig till stora platser som Nepal och Egypten för att hitta denna artefakt. Men han måste slåss mot sin fiende Rene Belloq och ett nazistband för att nå det.",
+    "pl": "Jest rok 1936. Profesor archeologii Indiana Jones zapuszcza się w dżungle Ameryki Południowej w poszukiwaniu złotego posągu. Niestety uruchamia śmiertelną pułapkę, ale cudem ucieka. Następnie Jones słyszy od kustosza muzeum Marcusa Brody'ego o biblijnym artefakcie zwanym Arką Przymierza, który może zawierać klucz do ludzkiej egzystencji. Jones musi zapuścić się w rozległe miejsca, takie jak Nepal i Egipt, aby znaleźć ten artefakt. Będzie jednak musiał walczyć ze swoim wrogiem Rene Belloq i bandą nazistów, aby do niego dotrzeć."
+  },
     "actors": ["Harrison Ford", "Karen Allen", "Paul Freeman"],
-    "imdbRating": 8.5,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA0ODEzMTc1Nl5BMl5BanBnXkFtZTcwODM2MjAxNA@@._V1_SY500_CR0,0,332,500_AL_.jpg"
+    "imdbRating": 8.5
   },
   {
-    "title": "F\u00f6nstret \u00e5t g\u00e5rden",
+    "movieId": "rear-window_1954",
+    "title":   {
+      "en": "Rear Window",
+      "sv": "Fönstret åt gården",
+      "pl": "Okno na podwórze"
+    },
     "year": "1954",
     "genres": ["Mystery", "Thriller"],
     "ratings": [
@@ -1263,13 +1488,21 @@
     "releaseDate": "1955-06-13",
     "averageRating": 0,
     "originalTitle": "Rear Window",
-    "storyline": "Professional photographer L.B. \"Jeff\" Jeffries breaks his leg while getting an action shot at an auto race. Confined to his New York apartment, he spends his time looking out of the rear window observing the neighbors. He begins to suspect that a man across the courtyard may have murdered his wife. Jeff enlists the help of his high society fashion-consultant girlfriend Lisa Freemont and his visiting nurse Stella to investigate.                Written by\nCol Needham <col@imdb.com>",
+    "storyline":   {
+      "en": "Professional photographer L.B. 'Jeff' Jeffries breaks his leg while getting an action shot at an auto race. Confined to his New York apartment, he spends his time looking out of the rear window observing the neighbors. He begins to suspect that a man across the courtyard may have murdered his wife. Jeff enlists the help of his high society fashion-consultant girlfriend Lisa Freemont and his visiting nurse Stella to investigate.",
+      "sv": "Professionell fotograf L.B. 'Jeff' Jeffries bryter benet medan han får ett actionskott vid en autolopp. Begränsad till sin lägenhet i New York spenderar han sin tid på att titta ut genom bakrutan och observera grannarna. Han börjar misstänka att en man tvärs över gården kan ha mördat sin fru. Jeff tar hjälp av sin flickvän Lisa Freemont och hans gästsjuksköterska Stella för att undersöka det.",
+      "pl": "Profesjonalny fotograf L.B. „Jeff” Jeffries łamie nogę podczas oddawania akcji podczas wyścigu samochodowego. Zamknięty w swoim mieszkaniu w Nowym Jorku spędza czas wyglądając przez tylną szybę, obserwując sąsiadów. Zaczyna podejrzewać, że mężczyzna po drugiej stronie dziedzińca mógł zamordować jego żonę. Jeff prosi o pomoc swoją dziewczynę, konsultantkę mody z wyższych sfer, Lisę Freemont, i swoją pielęgniarkę Stellę, by to zbadać."
+    },
     "actors": ["James Stewart", "Grace Kelly", "Wendell Corey"],
-    "imdbRating": 8.5,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNGUxYWM3M2MtMGM3Mi00ZmRiLWE0NGQtZjE5ODI2OTJhNTU0XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY500_CR0,0,341,500_AL_.jpg"
+    "imdbRating": 8.5
   },
   {
-    "title": "The Pianist",
+    "movieId": "the-pianist_2002",
+    "title":   {
+      "en": "The Pianist",
+      "sv": "The Pianist",
+      "pl": "Pianista"
+    },
     "year": "2002",
     "genres": ["Biography", "Drama", "War"],
     "ratings": [
@@ -1310,13 +1543,21 @@
     "releaseDate": "2003-08-15",
     "averageRating": 0,
     "originalTitle": "The Pianist",
-    "storyline": "In this adaptation of the autobiography \"The Pianist: The Extraordinary True Story of One Man's Survival in Warsaw, 1939-1945,\" Wladyslaw Szpilman, a Polish Jewish radio station pianist, sees Warsaw change gradually as World War II begins. Szpilman is forced into the Warsaw Ghetto, but is later separated from his family during Operation Reinhard. From this time until the concentration camp prisoners are released, Szpilman hides in various locations among the ruins of Warsaw.                Written by\nJwelch5742",
+    "storyline":   {
+      "en": "In this adaptation of the autobiography 'The Pianist: The Extraordinary True Story of One Man's Survival in Warsaw, 1939-1945,' Wladyslaw Szpilman, a Polish Jewish radio station pianist, sees Warsaw change gradually as World War II begins. Szpilman is forced into the Warsaw Ghetto, but is later separated from his family during Operation Reinhard. From this time until the concentration camp prisoners are released, Szpilman hides in various locations among the ruins of Warsaw. ",
+      "sv": "I denna anpassning av självbiografin 'The Pianist: The Extraordinary True Story of One Man's Survival in Warsaw, 1939-1945' ser Wladyslaw Szpilman, en polsk judisk radiostationspianist, Warszawa förändras gradvis när andra världskriget börjar. Szpilman tvingas in i Warszawagetto, men separeras senare från sin familj under operation Reinhard. Från denna tid tills koncentrationslägerfångarna släpps gömmer sig Szpilman på olika platser bland Warszawas ruiner.",
+      "pl": "W adaptacji autobiografii „Pianista. Niezwykła prawdziwa historia przeżycia jednego człowieka w Warszawie 1939–1945” Władysław Szpilman, pianista polskiego radia żydowskiego, widzi, jak Warszawa zmienia się stopniowo wraz z wybuchem II wojny światowej. Szpilman zostaje zmuszony do getta warszawskiego, ale później zostaje oddzielony od rodziny podczas akcji Reinhard. Od tego czasu aż do zwolnienia więźniów obozów koncentracyjnych Szpilman ukrywa się w różnych miejscach wśród ruin Warszawy."
+    },
     "actors": ["Adrien Brody", "Thomas Kretschmann", "Frank Finlay"],
-    "imdbRating": 8.5,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BOWRiZDIxZjktMTA1NC00MDQ2LWEzMjUtMTliZmY3NjQ3ODJiXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY500_CR0,0,362,500_AL_.jpg"
+    "imdbRating": 8.5
   },
   {
-    "title": "The Departed",
+    "movieId": "the_departed_2006",
+    "title": {
+      "en": "The Departed",
+      "sv": "The Departed",
+      "pl": "Infiltracja"
+    },
     "year": "2006",
     "genres": ["Crime", "Drama", "Thriller"],
     "ratings": [
@@ -1357,13 +1598,21 @@
     "releaseDate": "2007-01-12",
     "averageRating": 0,
     "originalTitle": "The Departed",
-    "storyline": "In South Boston, the state police force is waging war on Irish-American organized crime. Young undercover cop Billy Costigan is assigned to infiltrate the mob syndicate run by gangland chief Frank Costello. While Billy quickly gains Costello's confidence, Colin Sullivan, a hardened young criminal who has infiltrated the state police as an informer for the syndicate is rising to a position of power in the Special Investigation Unit. Each man becomes deeply consumed by their double lives, gathering information about the plans and counter-plans of the operations they have penetrated. But when it becomes clear to both the mob and the police that there is a mole in their midst, Billy and Colin are suddenly in danger of being caught and exposed to the enemy - and each must race to uncover the identity of the other man in time to save themselves. But is either willing to turn on their friends and comrades they've made during their long stints undercover?                Written by\nAnonymous",
+    "storyline": {
+      "en": "In South Boston, the state police force is waging war on Irish-American organized crime. Young undercover cop Billy Costigan is assigned to infiltrate the mob syndicate run by gangland chief Frank Costello. While Billy quickly gains Costello's confidence, Colin Sullivan, a hardened young criminal who has infiltrated the state police as an informer for the syndicate is rising to a position of power in the Special Investigation Unit. Each man becomes deeply consumed by their double lives, gathering information about the plans and counter-plans of the operations they have penetrated. But when it becomes clear to both the mob and the police that there is a mole in their midst, Billy and Colin are suddenly in danger of being caught and exposed to the enemy - and each must race to uncover the identity of the other man in time to save themselves. But is either willing to turn on their friends and comrades they've made during their long stints undercover?",
+      "sv": "I södra Boston kriger den statliga polisen krig mot den irländsk-amerikanska organiserade brottsligheten. Den unga undercover-polisen Billy Costigan får i uppdrag att infiltrera pöbelsyndikatet som drivs av ganglandschef Frank Costello. Medan Billy snabbt får Costellos förtroende, stiger Colin Sullivan, en härdad ung kriminell som har infiltrerat statspolisen som en informatör för syndikatet till en maktposition i specialundersökningsenheten. Varje man blir djupt konsumerad av sina dubbla liv och samlar information om planerna och motplanerna för de operationer de har trängt in. Men när det blir tydligt för både mobben och polisen att det finns en mullvad i deras mitt, riskerar Billy och Colin plötsligt att fångas och utsättas för fienden - och var och en måste tävla för att avslöja identiteten hos den andra mannen i tid att rädda sig själva. Men är antingen villiga att slå på sina vänner och kamrater de har gjort under sina långa tider undercover?",
+      "pl": "W południowym Bostonie policja stanowa prowadzi wojnę z irlandzko-amerykańską przestępczością zorganizowaną. Młody tajny policjant Billy Costigan zostaje przydzielony do infiltracji syndykatu mafii kierowanego przez szefa gangów, Franka Costello. Podczas gdy Billy szybko zdobywa zaufanie Costello, Colin Sullivan, zatwardziały młody przestępca, który zinfiltrował policję stanową jako informator syndykatu, dochodzi do władzy w Specjalnej Jednostce Śledczej. Każdy człowiek zostaje głęboko pochłonięty swoim podwójnym życiem, zbierając informacje o planach i kontr-planach operacji, które przeniknął. Ale kiedy staje się jasne zarówno dla tłumu, jak i policji, że pośród nich jest kret, Billy'emu i Colinowi nagle grozi złapanie i wystawienie na działanie wroga - i każdy musi ścigać się, aby odkryć tożsamość drugiego mężczyzny w czas, aby się uratować. Ale czy któryś z nich jest skłonny zwrócić się przeciwko swoim przyjaciołom i towarzyszom, których zdobyli podczas długich tajnych podróży?"
+    },
     "actors": ["Leonardo DiCaprio", "Matt Damon", "Jack Nicholson"],
-    "imdbRating": 8.5,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTI1MTY2OTIxNV5BMl5BanBnXkFtZTYwNjQ4NjY3._V1_SX225_CR0,0,225,332_AL_.jpg"
+    "imdbRating": 8.5
   },
   {
-    "title": "Terminator 2 - Domedagen",
+    "movieId": "terminator-2-judgment-day_1991",
+    "title":   {
+      "en": "Terminator 2: Judgment Day",
+      "sv": "Terminator 2 - Domedagen",
+      "pl": "Terminator 2 - Dzień Sądu"
+    },
     "year": "1991",
     "genres": ["Action", "Sci-Fi", "Thriller"],
     "ratings": [
@@ -1404,13 +1653,21 @@
     "releaseDate": "1991-09-13",
     "averageRating": 0,
     "originalTitle": "Terminator 2: Judgment Day",
-    "storyline": "Over 10 years have passed since the first cyborg called The Terminator tried to kill Sarah Connor and her unborn son, John Connor. John Connor, the future leader of the human resistance, is now a healthy young boy. However another Terminator is sent back through time called the T-1000, which is more advanced and more powerful than its predecessor. The Mission: to kill John Connor when he's still a child. However, Sarah and John do not have to face this threat of a Terminator alone. Another Terminator is also sent back through time. The mission: to protect John and Sarah Connor at all costs. The battle for tomorrow has begun...                Written by\nEric ggg",
+    "storyline":   {
+      "en": "Over 10 years have passed since the first cyborg called The Terminator tried to kill Sarah Connor and her unborn son, John Connor. John Connor, the future leader of the human resistance, is now a healthy young boy. However another Terminator is sent back through time called the T-1000, which is more advanced and more powerful than its predecessor. The Mission: to kill John Connor when he's still a child. However, Sarah and John do not have to face this threat of a Terminator alone. Another Terminator is also sent back through time. The mission: to protect John and Sarah Connor at all costs. The battle for tomorrow has begun...  ",
+      "sv": "Över tio år har gått sedan den första cyborg som heter The Terminator försökte döda Sarah Connor och hennes ofödda son, John Connor. John Connor, den framtida ledaren för det mänskliga motståndet, är nu en frisk ung pojke. Men en annan Terminator skickas tillbaka genom tiden som heter T-1000, som är mer avancerad och kraftfullare än sin föregångare. Uppdraget: att döda John Connor när han fortfarande är barn. Men Sarah och John behöver inte möta detta hot av en enda terminator. En annan Terminator skickas också tillbaka genom tiden. Uppdraget: att skydda John och Sarah Connor till varje pris. Striden om imorgon har börjat ...",
+      "pl": "Minęło ponad 10 lat od czasu, gdy pierwszy cyborg zwany Terminatorem próbował zabić Sarah Connor i jej nienarodzonego syna Johna Connora. John Connor, przyszły przywódca ludzkiego ruchu oporu, jest teraz zdrowym młodym chłopcem. Jednak inny Terminator zostaje wysłany w przeszłość, zwany T-1000, który jest bardziej zaawansowany i potężniejszy niż jego poprzednik. Misja: zabić Johna Connora, gdy jest jeszcze dzieckiem. Jednak Sarah i John nie muszą sami stawić czoła zagrożeniu ze strony Terminatora. Inny Terminator również zostaje wysłany w przeszłość. Misja: chronić Johna i Sarah Connor za wszelką cenę. Rozpoczęła się bitwa o jutro ..."
+    },
     "actors": ["Arnold Schwarzenegger", "Linda Hamilton", "Edward Furlong"],
-    "imdbRating": 8.5,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BZDM2YjYwYWMtMWZlNi00ZDQxLWExMDctMDAzNzQ0OTkzZjljXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY500_CR0,0,337,500_AL_.jpg"
+    "imdbRating": 8.5
   },
   {
-    "title": "Tillbaka till framtiden",
+    "movieId": "back_to_the_future_1985",
+    "title":   {
+      "en": "Back to the Future",
+      "sv": "Tillbaka till framtiden",
+      "pl": "Powrót do przyszłości"
+    },
     "year": "1985",
     "genres": ["Adventure", "Comedy", "Sci-Fi"],
     "ratings": [
@@ -1451,13 +1708,21 @@
     "releaseDate": "1985-12-18",
     "averageRating": 0,
     "originalTitle": "Back to the Future",
-    "storyline": "Marty McFly, a typical American teenager of the Eighties, is accidentally sent back to 1955 in a plutonium-powered DeLorean \"time machine\" invented by a slightly mad scientist. During his often hysterical, always amazing trip back in time, Marty must make certain his teenage parents-to-be meet and fall in love - so he can get back to the future.                Written by\nRobert Lynch <docrlynch@yahoo.com>",
+    "storyline": {
+      "en": "Marty McFly, a typical American teenager of the Eighties, is accidentally sent back to 1955 in a plutonium-powered DeLorean 'time machine' invented by a slightly mad scientist. During his often hysterical, always amazing trip back in time, Marty must make certain his teenage parents-to-be meet and fall in love - so he can get back to the future.    ",
+      "sv": "Marty McFly, en typisk amerikansk tonåring på åttiotalet, skickas av misstag tillbaka till 1955 i en plutoniumdriven DeLorean '' tidsmaskin '' som uppfanns av en lite galen forskare. Under sin ofta hysteriska, alltid fantastiska resa tillbaka i tiden måste Marty försäkra sig om att hans tonåriga föräldrar ska träffas och bli kär - så att han kan komma tillbaka till framtiden.",
+      "pl": "Marty McFly, typowy amerykański nastolatek lat osiemdziesiątych, zostaje przypadkowo odesłany z powrotem do 1955 roku w napędzanym plutonem „wehikułu czasu” DeLoreana, wynalezionym przez nieco szalonego naukowca. Podczas swojej często histerycznej, zawsze niesamowitej podróży w przeszłość, Marty musi upewnić się, że jego przyszli nastoletni rodzice spotkają się i zakochają - aby mógł wrócić do przyszłości."
+    },
     "actors": ["Michael J. Fox", "Christopher Lloyd", "Lea Thompson"],
-    "imdbRating": 8.5,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BZmU0M2Y1OGUtZjIxNi00ZjBkLTg1MjgtOWIyNThiZWIwYjRiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY500_CR0,0,321,500_AL_.jpg"
+    "imdbRating": 8.5
   },
   {
-    "title": "Whiplash",
+    "movieId": "whiplash_2014",
+    "title":   {
+      "en": "Whiplash",
+      "sv": "Whiplash",
+      "pl": "Whiplash"
+    },
     "year": "2014",
     "genres": ["Drama", "Music"],
     "ratings": [
@@ -1498,9 +1763,12 @@
     "releaseDate": "2015-02-06",
     "averageRating": 0,
     "originalTitle": "Whiplash",
-    "storyline": "A young and talented drummer attending a prestigious music academy finds himself under the wing of the most respected professor at the school, one who does not hold back on abuse towards his students. The two form an odd relationship as the student wants to achieve greatness, and the professor pushes him.                Written by\nandrewhodkinson",
+    "storyline":   {
+      "en": "A young and talented drummer attending a prestigious music academy finds himself under the wing of the most respected professor at the school, one who does not hold back on abuse towards his students. The two form an odd relationship as the student wants to achieve greatness, and the professor pushes him. ",
+      "sv": "En ung och begåvad trummis som går på en prestigefylld musikakademi befinner sig under den mest respekterade professorn på skolan, en som inte håller tillbaka misshandel mot sina elever. De två bildar en udda relation eftersom studenten vill uppnå storhet, och professorn driver honom.",
+      "pl": "Młody i utalentowany perkusista uczęszczający do prestiżowej akademii muzycznej trafia pod skrzydła najbardziej szanowanego profesora tej szkoły, który nie stroni od nadużyć wobec swoich uczniów. Tworzą dziwną relację, ponieważ student chce osiągnąć wielkość, a profesor go popycha."
+    },
     "actors": ["Miles Teller", "J.K. Simmons", "Melissa Benoist"],
-    "imdbRating": 8.5,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BOTVhMWQ5MDktMGE3OS00MjVlLWExZWYtMzY2MTg4ZGFiZDQ5L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY500_CR0,0,337,500_AL_.jpg"
+    "imdbRating": 8.5
   }
 ]
