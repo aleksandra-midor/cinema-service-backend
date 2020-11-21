@@ -19,7 +19,7 @@
       ]
     },
     {
-      "movieTile": "seven_1995",
+      "movieId": "seven_1995",
       "seance": [
         [],
         ["21:00"],
@@ -31,7 +31,7 @@
       ]
     },
     {
-      "movieTile": "spirited-away_2001",
+      "movieId": "spirited-away_2001",
       "seance": [
         ["16:30", "19:00"],
         ["21:00"],
@@ -63,7 +63,7 @@
       ]
     },
     {
-      "movieTile": "12-angry-men_1957",
+      "movieId": "12-angry-men_1957",
       "seance": [
         [],
         ["21:00"],
@@ -75,7 +75,7 @@
       ]
     },
     {
-      "movieTile": "rear-window_1954",
+      "movieId": "rear-window_1954",
       "seance": [
         ["16:30", "19:00"],
         ["21:00"],
