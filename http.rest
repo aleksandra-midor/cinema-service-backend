@@ -6,7 +6,11 @@ GET http://localhost:5001/api/v1/cinemas
 Content-Type: application/json
 
 ### get a cinema by id
-GET http://localhost:5001/api/v1/cinemas/5f9ef6cfd392b966283408da
+GET http://localhost:5001/api/v1/cinemas/5fb93ac9a6edc33f907296b2
+Content-Type: application/json
+
+### get movies for the given cinema by cinema id
+GET http://localhost:5001/api/v1/movies/5fb93ac9a6edc33f907296b2
 Content-Type: application/json
 
 ### get payment data INITIAL 
