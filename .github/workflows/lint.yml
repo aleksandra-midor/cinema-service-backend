@@ -1,5 +1,5 @@
 
-name: Run Lint
+name: Lint
 
 on:
   push:
