@@ -215,7 +215,7 @@
     "ticketPrice": "180",
     "repertoire": [
       {
-        "movieId": "interstella_2014",
+        "movieId": "interstellar_2014",
         "seance": [
           [
             "23:30"
@@ -641,15 +641,15 @@
     ]
   },
   {
-    "name": "Uppsala  Paradiso",
-    "city": "Uppsala ",
+    "name": "Uppsala Paradiso",
+    "city": "Uppsala",
     "address": "Stora Torget 4",
     "email": "uppsala@paradiso.com",
     "phone": "076122334455",
     "ticketPrice": "175",
     "repertoire": [
       {
-        "movieId": "interstella_2014",
+        "movieId": "interstellar_2014",
         "seance": [
           [
             "23:00"
