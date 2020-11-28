@@ -1,6 +1,3 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable no-empty */
-/* eslint-disable no-console */
 /* eslint-disable prettier/prettier */
 /* eslint-disable no-use-before-define */
 const express = require('express');
@@ -22,8 +19,7 @@ const intent = async (req, res) => {
         amount: `${ticket.totalPrice}00`,
         currency: 'sek',
       });
-
-      res.status(200).send(paymentIntent.client_secret);
+      res.status(200).json(paymentIntent.client_secret);
     } catch (err) {
       res.status(500).json({
         statusCode: 500,
@@ -40,7 +36,7 @@ const confirm = async (req, res) => {
   if (req.method === 'POST') {
     try {
       const { ticket } = req.body;
-      console.log(ticket);
+      // console.log(ticket);
 
       if (ticket.paymentStatus === 'confirmed') {
         seatsBook(ticket);
@@ -70,8 +66,6 @@ async function ticketSave(ticket) {
 }
 
 async function seatsBook(ticket) {
-  console.log('function seatsBook');
-
   try {
     const finalBooking = await BookedSeat.findOneAndUpdate(
       {
@@ -87,7 +81,6 @@ async function seatsBook(ticket) {
       },
       { new: true }
     );
-    console.log('-------- finalBooking', finalBooking);
 
     if (finalBooking) {
       await finalBooking.save();
@@ -101,11 +94,20 @@ async function seatsBook(ticket) {
       });
       await newSeatsBook.save();
     }
-  } catch (error) {}
+  } catch (error) {
+    console.log(error);
+  }
 }
 
 router.post('/intent', intent);
 router.post('/confirm', confirm);
-router.all('*', (_, res) => res.json({ message: 'please make a POST request to /stripe/charge' }));
+// eslint-disable-next-line prettier/prettier
+router.all(
+  '*',
+  (_, res) => res.json({
+    message: 'please make a POST request to /payment/intent or /payment/confirm',
+  })
+  // eslint-disable-next-line function-paren-newline
+);
 
 module.exports = router;
