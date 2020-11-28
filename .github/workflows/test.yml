@@ -1,5 +1,5 @@
 
-name: Cinema Service Backend
+name: Cinema Service Backend Tests
 
 on:
   push:
@@ -29,6 +29,7 @@ jobs:
           mongodb-version: ${{ matrix.mongodb-version }}
       - run: npm ci
       - run: npm install
+      - run: npm seedDb:Development
       - run: npm test
         env:
           MONGO_URI: mongodb://localhost:27017/cinema-service-test
