@@ -11,7 +11,7 @@ function sendMail(ticket) {
     const request = mailjet.post('send', { version: 'v3.1' }).request({
       Messages: [ticketTemplate(ticket)],
     });
-
+    console.log(ticketTemplate(ticket));
     request
       .then((result) => {
         console.log(result.body);

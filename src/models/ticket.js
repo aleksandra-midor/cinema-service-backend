@@ -12,6 +12,7 @@ const TicketSchema = new mongoose.Schema({
   customerEmail: { type: String, required: true },
   paymentId: { type: String, require: true },
   paymentStatus: { type: String, require: true },
+  language: { type: String, require: true },
 });
 
 module.exports = mongoose.model('Ticket', TicketSchema);
