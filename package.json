@@ -8,7 +8,8 @@
     "test": "cross-env NODE_ENV=test mocha --recursive src/test/ --timeout 10000",
     "start": "cross-env NODE_ENV=development node src/index.js",
     "seedDb:Develpoment": "cross-env NODE_ENV=development node seed-db/import.js",
-    "seedDb:Test": "cross-env NODE_ENV=test node seed-db/import.js"
+    "seedDb:Test": "cross-env NODE_ENV=test node seed-db/import.js",
+    "lint": "eslint \"src/**/*.js\""
   },
   "author": "Aleksandra Midor",
   "license": "ISC",
