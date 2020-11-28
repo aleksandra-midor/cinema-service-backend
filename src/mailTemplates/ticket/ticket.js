@@ -21,7 +21,7 @@ const email = (ticket) => {
     Subject: `Cinema Paradiso: ${t.ticketFor} ${ticket.movieTitle}`,
     TextPart: `Cinema Paradiso: ${t.ticketFor} ${ticket.movieTitle}`,
     HTMLPart: `
-    <body style="background: black; font-size: 120%; border-bottom: 10px solid #bf2a2a!important">
+    <body style="background: black; font-size: 120%; border-bottom: 10px solid #bf2a2a">
     <div style="background: #bf2a2a; color: white; padding: 15px; font-size: 18px; font-weight: bold">Cinema Paradiso</div>
     <div style="max-width: 600px; margin: 40px auto; color: white!important;">
     <h1>${t.ticketFor} ${ticket.movieTitle}</h1>

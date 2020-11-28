@@ -7,7 +7,6 @@ const router = express.Router();
 // get all tickets by id (matching the requirements)
 
 router.get('/:cinema/:movie/:date/:hour', async (req, res) => {
-  console.log(req.params);
   const { cinema, movie, date, hour } = req.params;
   try {
     const booking = await BookedSeat.findOne({
@@ -18,7 +17,6 @@ router.get('/:cinema/:movie/:date/:hour', async (req, res) => {
     });
 
     if (booking) {
-      console.log('===============', booking);
       return res.json(booking.bookedSeats);
     }
     return res.json([]);
