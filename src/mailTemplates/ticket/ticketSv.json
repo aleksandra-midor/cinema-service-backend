@@ -1,3 +1,17 @@
 {
-  "ticketFor": "Biljett till"
+  "ticketFor": "Biljett till",
+  "hi": "Hej",
+  "thisIsYourTicket": "det här är din biljett",
+  "showItOrPrintIt": "Visa detta e-postmeddelande vid bioingången eller skriv ut det och ta det med dig.",
+  "details": "Detaljer",
+  "movie": "Film",
+  "date": "Datum",
+  "time": "Tid",
+  "seats": "Reserverade platser",
+  "cinema": "Bio",
+  "paymentDetails": "Betalningsinformation",
+  "price": "Pris",
+  "paymentStatus": "Betalningsstatus",
+  "transactionId": "Transaktions ID",
+  "thankYou": "Tack och vi önskar er en trevlig screening."
 }

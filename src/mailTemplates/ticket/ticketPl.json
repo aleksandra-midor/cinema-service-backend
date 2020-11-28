@@ -1,3 +1,17 @@
 {
-  "ticketFor": "Bilet na"
+  "ticketFor": "Bilet na",
+  "hi": "Cześć",
+  "thisIsYourTicket": "to jest twój bilet",
+  "showItOrPrintIt": "Okaż tego maila przy wejściu na do kina lub wydrukuj i zabierz ze sobą.",
+  "details" : "Szczegóły",
+  "movie": "Film",
+  "date": "Data seansu",
+  "time": "Godzina",
+  "seats": "Zarezerwowane miejsca",
+  "cinema": "Kino",
+  "paymentDetails": "Szczegóły płatności",
+  "price": "Cena",
+  "paymentStatus": "Staus płatności",
+  "transactionId": "Identyfikator transakcji",
+  "thankYou": "Dziękujemy i życzymy udanego seansu."
 }
