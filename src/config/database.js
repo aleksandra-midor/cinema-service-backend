@@ -12,13 +12,6 @@ const dotenv = require('dotenv').config({
 
 const env = dotenv.parsed || process.env;
 
-const database = env.DB_CONNECTION;
-console.log('db connection from env', database);
-console.log(
-  '------------------------------------------------------------------------------'
-);
-// console.log('process.env', env);
-
 const connect = async () => {
   const mongoConnectionString = env.DB_CONNECTION;
   try {
