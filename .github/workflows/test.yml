@@ -1,4 +1,4 @@
-name: Backend tests
+name: lint and test
 
 on:
   push:
@@ -7,14 +7,26 @@ on:
     branches: [main]
 
 jobs:
+  lint-check:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [10.x]
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - run: npm ci
+    - run: npm run lint
+
   integration-tests:
     runs-on: ubuntu-latest
-
     strategy:
       matrix:
         node-version: [10.x]
         mongodb-version: [4.2]
-
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js ${{ matrix.node-version }}
@@ -24,11 +36,11 @@ jobs:
       - run: npm ci
       - run: npm install
       - name: seedDb
-        env: # Or as an environment variable
+        env: 
           DB_CONNECTION: ${{ secrets.DB_CONNECTION }}
         run: npm run seedDb:Test
       - name: test
-        env: # Or as an environment variable
+        env: 
           PORT: 5001
           DB_CONNECTION: ${{ secrets.DB_CONNECTION }}
           STRIPE_SECRET_KEY: ${{ secrets.STRIPE_SECRET_KEY }}
