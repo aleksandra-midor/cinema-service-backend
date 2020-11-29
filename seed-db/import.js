@@ -11,6 +11,12 @@ const envFiles = {
 
 const env = require('dotenv').config({ path: envFiles[process.env.NODE_ENV] });
 
+console.log('process.env', env);
+console.log(
+  '------------------------------------------------------------------------------'
+);
+console.log('process.env', process.env);
+
 const config = {
   database: env.parsed.DB_CONNECTION,
   dropDatabase: false,

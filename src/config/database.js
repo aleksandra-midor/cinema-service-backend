@@ -8,6 +8,10 @@ const envFiles = {
 
 const env = require('dotenv').config({ path: envFiles[process.env.NODE_ENV] });
 
+console.log('process.env', env);
+console.log('------------------------------------------------------------------------------')
+console.log('process.env', process.env);
+
 const connect = async () => {
   const mongoConnectionString = env.parsed.DB_CONNECTION;
   try {
