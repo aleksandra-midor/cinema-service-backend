@@ -1,5 +1,5 @@
 
-name: Test
+name: Backend tests
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
     branches: [ main ]
 
 jobs:
-  test:
+  integration-tests:
 
     runs-on: ubuntu-latest
 
@@ -20,18 +20,21 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js ${{ matrix.node-version }}
-        env: # Or as an environment variable
-          super_secret: ${{ secrets.SuperSecret }}
+          # super_secret: ${{ secrets.SUPERSECRET }}
+
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - name: Start MongoDB
-        uses: supercharge/mongodb-github-action@1.3.0
-        with:
-          mongodb-version: ${{ matrix.mongodb-version }}
+      # - name: Start MongoDB
+      #   uses: supercharge/mongodb-github-action@1.3.0
+      #   with:
+      #     mongodb-version: ${{ matrix.mongodb-version }}
       - run: npm ci
       - run: npm install
-      - run: npm run seedDb:Test
+      - name: run seedDb
+        env: # Or as an environment variable
+          DB_CONNECTION: ${{ secrets.DB_CONNECTION }}
+        run: npm run seedDb:Test
       - run: npm test
         env:
           MONGO_URI: mongodb://localhost:27017/cinema-service-test
