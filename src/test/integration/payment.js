@@ -46,7 +46,7 @@ describe('Payment API test', () => {
     });
   });
 
-  describe.only('POST /api/v1/payment/confirm', () => {
+  describe('POST /api/v1/payment/confirm', () => {
     const testData = {
       ticket: {
         movieId: '5f9ec9f5b0286024eceb5cd8',
