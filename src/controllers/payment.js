@@ -36,14 +36,13 @@ const confirm = async (req, res) => {
   if (req.method === 'POST') {
     try {
       const { ticket } = req.body;
-      // console.log(ticket);
 
       if (ticket.paymentStatus === 'confirmed') {
         seatsBook(ticket);
         ticketSave(ticket);
         sendMail(ticket);
       }
-      res.status(200).send(ticket.paymentStatus);
+      res.status(200).json(ticket.paymentStatus);
     } catch (err) {
       res.status(500).json({
         statusCode: 500,
