@@ -21,7 +21,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Use Node.js ${{ matrix.node-version }}
         env: # Or as an environment variable
-          test_test: ${{ secrets.TESTEST }}
+          super_secret: ${{ secrets.SuperSecret }}
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
