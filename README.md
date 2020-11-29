@@ -30,14 +30,13 @@
 - mocha, chai, supertest
 
 ### Frontend
-
-- CRA react with hooks
+- react with hooks based on CRA template
 - sass
 - i18n
 - eslint
 - stripe (payment)
 - cloudinary (images hosting)
-
+- jest, testing-library
 
 ### CI and Deployment
 - Github actions
@@ -55,11 +54,14 @@
 
 ### Setup
 
-1. clone repository 
+1. clone the repository 
     ```
     https://github.com/aleksandra-midor/cinema-service-backend.git
     ```
-2. install dependencies ```npm install```
+2. install dependencies 
+    ```
+    npm install
+    ```
 3. create `.env` and `.env.test` files in the project root directory 
     ```
     DB_CONNECTION=<db-connection-string>
@@ -71,24 +73,34 @@
     and replace 
 
     - `<db-connection-string>` with mongoDB connection string for development DB in `.env` file and mongoDB connection string for testing in DB in `.env.test` file
+    - `<stripe key>` with a secret key from stripe
+    - `<mailjest-api-key>` with mailjet api key
+    - `<mailjest-secret-key>` with mailjet secret key
 
-    - \<stripe key> with a secret key from stripe
-
-
-    - WIP
-
-4. run `npm start` to start developing
+4. run `npm run seedDb:Develpoment` to seed the database with movies and cinemas
+5. run `npm run dev` to start developing in watch mode or `npm start` to run the backend service
 
 ## Avaliable scripts
 
+### `npm run dev`
+Runs application in development watch mode
+
+### `npm start`
+Runs application
+
 ### `npm test`
+Launches the test runner
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `npm run seedDb:Development`
+Seeds development DB
 
+### `npm run seedDb:Test`
+Seeds test DB
 
+### `npm run lint`
+Runs code lint check
 
-## About author:
+## About the author:
 
 Aleksandra Midor
 
