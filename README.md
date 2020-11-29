@@ -73,7 +73,7 @@
     and replace 
 
     - `<db-connection-string>` with mongoDB connection string for development DB in `.env` file and mongoDB connection string for testing in DB in `.env.test` file
-    - `<stripe key>` with a secret key from stripe
+    - `<stripe-key>` with a secret key from stripe
     - `<mailjest-api-key>` with mailjet api key
     - `<mailjest-secret-key>` with mailjet secret key
 
