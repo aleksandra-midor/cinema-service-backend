@@ -4,10 +4,14 @@ const { expect } = require('chai');
 const mongoose = require('mongoose');
 const app = require('../../server');
 const { connect } = require('../../config/database');
+const BookedSeat = require('../../models/bookedSeat');
 
 describe('Payment API test', () => {
   before(async () => {
     await connect();
+  });
+  afterEach(async () => {
+    await BookedSeat.deleteMany();
   });
   after(async () => {
     await mongoose.connection.close();
@@ -42,7 +46,7 @@ describe('Payment API test', () => {
     });
   });
 
-  describe('POST /api/v1/payment/confirm', () => {
+  describe.only('POST /api/v1/payment/confirm', () => {
     const testData = {
       ticket: {
         movieId: '5f9ec9f5b0286024eceb5cd8',
@@ -51,7 +55,7 @@ describe('Payment API test', () => {
         hour: '16:30',
         cinemaId: '5fa2c884539a6449d84da4e1',
         cinemaName: 'Stockholm Paradiso',
-        seats: [0, 12],
+        seats: [1, 12, 13],
         language: 'pl',
         totalPrice: 400,
         customerEmail: 'ola_midor@outlook.com',
@@ -71,6 +75,18 @@ describe('Payment API test', () => {
       const confirmedResponse = response.text;
       expect(JSON.parse(confirmedResponse)).to.equal(
         testData.ticket.paymentStatus
+      );
+    });
+
+    it('should save booked seats in the database', async () => {
+      const booking = await BookedSeat.findOne({
+        cinemaId: testData.ticket.cinemaId,
+        movieId: testData.ticket.movieId,
+        date: testData.ticket.date,
+        hour: testData.ticket.hour,
+      });
+      expect(booking.bookedSeats).to.have.a.lengthOf(
+        testData.ticket.seats.length
       );
     });
   });
