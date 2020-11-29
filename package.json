@@ -5,22 +5,24 @@
   "main": "index.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon src/index.js",
-    "test": "cross-env NODE_ENV=test mocha --recursive src/test/ --timeout 10000",
+    "test": "cross-env NODE_ENV=test nyc mocha --recursive src/test/ --timeout 10000",
     "start": "cross-env NODE_ENV=development node src/index.js",
     "seedDb:Development": "cross-env NODE_ENV=development node seed-db/import.js",
     "seedDb:Test": "cross-env NODE_ENV=test node seed-db/import.js",
-    "lint": "eslint \"src/**/*.js\""
+    "lint": "eslint \"src/**/*.js\"",
+    "coverage": "nyc report --reporter=lcov --reporter=text"
   },
   "author": "Aleksandra Midor",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^4.1.0",
     "cors": "^2.8.5",
     "cross-env": "^7.0.2",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "mongoose": "^5.10.11",
     "node-mailjet": "^3.3.1",
-    "chalk": "^4.1.0",
+    "nyc": "^15.1.0",
     "stripe": "^8.119.0"
   },
   "devDependencies": {

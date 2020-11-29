@@ -27,7 +27,7 @@
 - stripe (payment)
 - mailJet
 - eslint
-- mocha, chai, supertest
+- mocha, nyc, chai, supertest
 
 ### Frontend
 - react with hooks based on CRA template
