@@ -18,6 +18,8 @@ jobs:
         mongodb-version: [4.2]
 
     steps:
+        env: # Or as an environment variable
+          DB_CONNECTION: ${{ secrets.DB_CONNECTION }}
       - uses: actions/checkout@v2
       - name: Use Node.js ${{ matrix.node-version }}
           # super_secret: ${{ secrets.SUPERSECRET }}
@@ -31,10 +33,8 @@ jobs:
       #     mongodb-version: ${{ matrix.mongodb-version }}
       - run: npm ci
       - run: npm install
-      - name: run seedDb
-        env: # Or as an environment variable
-          DB_CONNECTION: ${{ secrets.DB_CONNECTION }}
-        run: npm run seedDb:Test
+      # - name: seedDb
+      - run: npm run seedDb:Test
       - run: npm test
         env:
           MONGO_URI: mongodb://localhost:27017/cinema-service-test

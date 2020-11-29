@@ -6,14 +6,21 @@ const envFiles = {
   test: '.env.test',
 };
 
-const env = require('dotenv').config({ path: envFiles[process.env.NODE_ENV] });
+const dotenv = require('dotenv').config({
+  path: envFiles[process.env.NODE_ENV],
+});
 
-console.log('process.env', env);
-console.log('------------------------------------------------------------------------------')
-console.log('process.env', process.env);
+const env = dotenv.parsed || process.env;
+
+const database = env.DB_CONNECTION;
+console.log('db connection from env', database);
+console.log(
+  '------------------------------------------------------------------------------'
+);
+// console.log('process.env', env);
 
 const connect = async () => {
-  const mongoConnectionString = env.parsed.DB_CONNECTION;
+  const mongoConnectionString = env.DB_CONNECTION;
   try {
     const opts = {
       useUnifiedTopology: true,

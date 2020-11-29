@@ -9,20 +9,21 @@ const envFiles = {
   test: '.env.test',
 };
 
-const env = require('dotenv').config({ path: envFiles[process.env.NODE_ENV] });
+const dotenv = require('dotenv').config({
+  path: envFiles[process.env.NODE_ENV],
+});
 
-const database = process.env.DB_CONNECTION;
+const env = dotenv.parsed || process.env;
 
-console.log('db connection from env', database)
-
-console.log('process.env', env);
+const database = env.DB_CONNECTION;
+console.log('db connection from env', database);
 console.log(
   '------------------------------------------------------------------------------'
 );
-console.log('process.env', process.env);
+// console.log('process.env', env);
 
 const config = {
-  database: env.parsed.DB_CONNECTION,
+  database: env.DB_CONNECTION,
   dropDatabase: false,
   dropCollections: true,
 };
