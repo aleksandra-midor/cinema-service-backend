@@ -33,7 +33,7 @@ jobs:
       - name: seedDb
         env: # Or as an environment variable
           DB_CONNECTION: ${{ secrets.DB_CONNECTION }}
-          run: npm run seedDb:Test
+        run: npm run seedDb:Test
       - run: npm test
         env:
           MONGO_URI: mongodb://localhost:27017/cinema-service-test
