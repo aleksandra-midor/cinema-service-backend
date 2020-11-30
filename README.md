@@ -1,9 +1,6 @@
 # cinema-service-backend
 ![backend checks](https://github.com/aleksandra-midor/cinema-service-backend/workflows/backend%20checks/badge.svg)
 
-
-[Smart Coding](http://www.smartcoding.se/) course exam project for a cinema service.
-
 ## Main features:
 
 - cinema network web page with info about movies and shows
