@@ -7,9 +7,9 @@
 - ticket booking service with payment and email confirmation
 - multi language support
 
-## Live Version
+## Live Version (frontend)
 
-[live version link](/)
+[cinemaparadiso.aleksandramidor.com](https://cinemaparadiso.aleksandramidor.com)
 
 ## Github repository
 
